@@ -1,6 +1,7 @@
 using System.Collections.Generic;
+using UnityEngine;
 
 public interface ITargetFinder
 {
-    public List<T> Find<T>()where T : ITarget;
+    public List<T> Find<T>(LayerMask layerMask) where T : ITarget;
 }

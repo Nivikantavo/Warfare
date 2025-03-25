@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public class Solder : MonoBehaviour, IEnemyTarget
+public class EnemyUnit : MonoBehaviour, IPlayerTarget
 {
-    public Health Health { get; private set; }
-
     public Vector3 Position => transform.position;
 
     public GameObject GameObject => gameObject;
