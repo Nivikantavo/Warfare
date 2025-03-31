@@ -1,14 +1,13 @@
 using UnityEngine;
 
-public class EnemyUnit : Unit, IPlayerTarget
+public class PlayerUnit : Unit, IEnemyTarget
 {
     public Vector3 Position => transform.position;
-
     public GameObject GameObject => gameObject;
 
     private void FixedUpdate()
     {
-        Target = _targetFinder.GetNearestTarget<IEnemyTarget>();
+        Target = _targetFinder.GetNearestTarget<IPlayerTarget>();
         _machine.Update();
     }
 }

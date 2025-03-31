@@ -3,5 +3,6 @@ using UnityEngine;
 public interface ITarget
 {
     public Vector3 Position { get; }
-    GameObject GameObject { get; }
+    public GameObject GameObject { get; }
+    public Health Health { get; }
 }
