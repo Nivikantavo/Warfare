@@ -48,7 +48,7 @@ public class MovmentState : IState, ICanDieState
 
         if (_unit.Target != null)
         {
-            if (Vector3.Distance(_unit.transform.position, _unit.Target.Position) < _stopingDistance && _unit.transform.position.y - _unit.Target.Position.y < 0.1f)
+            if (_unit.CanAttack())
             {
                 _unit.StateMachine.SwitchState<AttackState>();
             }

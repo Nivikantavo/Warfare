@@ -1,0 +1,2093 @@
+fileFormatVersion: 2
+guid: 11618ce45a4186140b472b5a631bec79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7115575061552576880
+    second: Passenger car_Spritelist_0
+  - first:
+      213: 6201141899149641408
+    second: Passenger car_Spritelist_1
+  - first:
+      213: 9216763026944823294
+    second: Passenger car_Spritelist_2
+  - first:
+      213: -76155239067683680
+    second: Passenger car_Spritelist_3
+  - first:
+      213: -1376047939603185499
+    second: Passenger car_Spritelist_4
+  - first:
+      213: 6830925922574465837
+    second: Passenger car_Spritelist_5
+  - first:
+      213: 1712820230559371149
+    second: Passenger car_Spritelist_6
+  - first:
+      213: 4772218750885117859
+    second: Passenger car_Spritelist_7
+  - first:
+      213: -6168963418071317424
+    second: Passenger car_Spritelist_8
+  - first:
+      213: 5507398225658629847
+    second: Passenger car_Spritelist_9
+  - first:
+      213: -4390690829546789923
+    second: Passenger car_Spritelist_10
+  - first:
+      213: -2395364195403824419
+    second: Passenger car_Spritelist_11
+  - first:
+      213: -2593507167671561070
+    second: Passenger car_Spritelist_12
+  - first:
+      213: 5766203773198482021
+    second: Passenger car_Spritelist_13
+  - first:
+      213: 677082556321595964
+    second: Passenger car_Spritelist_14
+  - first:
+      213: -9001190989296760683
+    second: Passenger car_Spritelist_15
+  - first:
+      213: 1753100721257392285
+    second: Passenger car_Spritelist_16
+  - first:
+      213: -101617545907790870
+    second: Passenger car_Spritelist_17
+  - first:
+      213: -8159036876086695155
+    second: Passenger car_Spritelist_18
+  - first:
+      213: 5824292936614311961
+    second: Passenger car_Spritelist_19
+  - first:
+      213: -7508516763092843454
+    second: Passenger car_Spritelist_20
+  - first:
+      213: 227317191288871697
+    second: Passenger car_Spritelist_21
+  - first:
+      213: -2503784690347732639
+    second: Passenger car_Spritelist_22
+  - first:
+      213: -5171859049225676141
+    second: Passenger car_Spritelist_23
+  - first:
+      213: -1413908028217112612
+    second: Passenger car_Spritelist_24
+  - first:
+      213: 6149601548907104089
+    second: Passenger car_Spritelist_25
+  - first:
+      213: 9066707041094399744
+    second: Passenger car_Spritelist_26
+  - first:
+      213: -1246898413051102114
+    second: Passenger car_Spritelist_27
+  - first:
+      213: 8428042739616815975
+    second: Passenger car_Spritelist_28
+  - first:
+      213: 7713558868332805702
+    second: Passenger car_Spritelist_29
+  - first:
+      213: -2529068646559235
+    second: Passenger car_Spritelist_30
+  - first:
+      213: -4067164498963605141
+    second: Passenger car_Spritelist_31
+  - first:
+      213: -1965440145515782340
+    second: Passenger car_Spritelist_32
+  - first:
+      213: 3929724625535540082
+    second: Passenger car_Spritelist_33
+  - first:
+      213: 8581960945308885505
+    second: Passenger car_Spritelist_34
+  - first:
+      213: -1908260846914007908
+    second: Passenger car_Spritelist_35
+  - first:
+      213: 8121343722629870766
+    second: Passenger car_Spritelist_36
+  - first:
+      213: -2021254390140349565
+    second: Passenger car_Spritelist_37
+  - first:
+      213: -8462849254746230528
+    second: Passenger car_Spritelist_38
+  - first:
+      213: -4449205868389854781
+    second: Passenger car_Spritelist_39
+  - first:
+      213: -6450017869693167277
+    second: Passenger car_Spritelist_40
+  - first:
+      213: 1873279663638230311
+    second: Passenger car_Spritelist_41
+  - first:
+      213: -699682095203845994
+    second: Passenger car_Spritelist_42
+  - first:
+      213: -7189640575197543039
+    second: Passenger car_Spritelist_43
+  - first:
+      213: -3057007749686968089
+    second: Passenger car_Spritelist_44
+  - first:
+      213: -5244011265088236903
+    second: Passenger car_Spritelist_45
+  - first:
+      213: -2342825592692213589
+    second: Passenger car_Spritelist_46
+  - first:
+      213: 1471605701549946788
+    second: Passenger car_Spritelist_47
+  - first:
+      213: 977364432443083514
+    second: Passenger car_Spritelist_48
+  - first:
+      213: -8718697085267769286
+    second: Passenger car_Spritelist_49
+  - first:
+      213: -6570069892218847573
+    second: Passenger car_Spritelist_50
+  - first:
+      213: -8862507201158922914
+    second: Passenger car_Spritelist_51
+  - first:
+      213: 361047311202169404
+    second: Passenger car_Spritelist_52
+  - first:
+      213: -434470708031681505
+    second: Passenger car_Spritelist_53
+  - first:
+      213: -330375947686181281
+    second: Passenger car_Spritelist_54
+  - first:
+      213: -8062477378933486932
+    second: Passenger car_Spritelist_55
+  - first:
+      213: 6617055216097066225
+    second: Passenger car_Spritelist_56
+  - first:
+      213: -5884989857119434332
+    second: Passenger car_Spritelist_57
+  - first:
+      213: 4364936685074216910
+    second: Passenger car_Spritelist_58
+  - first:
+      213: -8470679663836851650
+    second: Passenger car_Spritelist_59
+  - first:
+      213: -7974596923560674029
+    second: Passenger car_Spritelist_60
+  - first:
+      213: 4501003624143092713
+    second: Passenger car_Spritelist_61
+  - first:
+      213: 5179524096339774583
+    second: Passenger car_Spritelist_62
+  - first:
+      213: -3305212560830505447
+    second: Passenger car_Spritelist_63
+  - first:
+      213: -4647500971902364479
+    second: Passenger car_Spritelist_64
+  - first:
+      213: -410283147122789815
+    second: Passenger car_Spritelist_65
+  - first:
+      213: -926272839243411258
+    second: Passenger car_Spritelist_66
+  - first:
+      213: 2710615980148755056
+    second: Passenger car_Spritelist_67
+  - first:
+      213: -2376081718120220415
+    second: Passenger car_Spritelist_68
+  - first:
+      213: -8985158218088127702
+    second: Passenger car_Spritelist_69
+  - first:
+      213: 1435092695551724740
+    second: Passenger car_Spritelist_70
+  - first:
+      213: -4582478634800685937
+    second: Passenger car_Spritelist_71
+  - first:
+      213: -6068974362958224915
+    second: Passenger car_Spritelist_72
+  - first:
+      213: -5654999799337491157
+    second: Passenger car_Spritelist_73
+  - first:
+      213: 2307817666778953030
+    second: Passenger car_Spritelist_74
+  - first:
+      213: -6518089633951308051
+    second: Passenger car_Spritelist_75
+  - first:
+      213: -1648625873165691806
+    second: Passenger car_Spritelist_76
+  - first:
+      213: -4850682009836487157
+    second: Passenger car_Spritelist_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1727
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096c7837e26604d90800000000000000
+      internalID: -7115575061552576880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1535
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c60b94c3b1ee0650800000000000000
+      internalID: 6201141899149641408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1535
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff0008f32588ef70800000000000000
+      internalID: 9216763026944823294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1535
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4f59ba63171fef0800000000000000
+      internalID: -76155239067683680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1535
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a04b0680bb47ece0800000000000000
+      internalID: -1376047939603185499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1535
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bfe0e4fe25cce50800000000000000
+      internalID: 6830925922574465837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1535
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f089ebce825c710800000000000000
+      internalID: 1712820230559371149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1535
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af37fc6ba35a3240800000000000000
+      internalID: 4772218750885117859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1535
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054ca71b470736aa0800000000000000
+      internalID: -6168963418071317424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1343
+        width: 135
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7decffcb1853e6c40800000000000000
+      internalID: 5507398225658629847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1343
+        width: 136
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd36c4214f12113c0800000000000000
+      internalID: -4390690829546789923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1343
+        width: 137
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2044994f4f1ced0800000000000000
+      internalID: -2395364195403824419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1343
+        width: 138
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294d184d8f2020cd0800000000000000
+      internalID: -2593507167671561070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1343
+        width: 135
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a3304f7cba50050800000000000000
+      internalID: 5766203773198482021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1343
+        width: 136
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3289256ffa756900800000000000000
+      internalID: 677082556321595964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1343
+        width: 137
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598058f4c78551380800000000000000
+      internalID: -9001190989296760683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1343
+        width: 138
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98270251d3445810800000000000000
+      internalID: 1753100721257392285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1151
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb1831616bf69ef0800000000000000
+      internalID: -101617545907790870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1151
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b2a8b803745ce80800000000000000
+      internalID: -8159036876086695155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1151
+        width: 134
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91876b2419b04d050800000000000000
+      internalID: 5824292936614311961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 959
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24409c929c36cc790800000000000000
+      internalID: -7508516763092843454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 959
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bdc16f7c7972300800000000000000
+      internalID: 227317191288871697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 959
+        width: 136
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16113c9f615c04dd0800000000000000
+      internalID: -2503784690347732639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 767
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a938ea89dd938b0800000000000000
+      internalID: -5171859049225676141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 767
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7cb09b32ac06ce0800000000000000
+      internalID: -1413908028217112612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 767
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957ccc8d606c75550800000000000000
+      internalID: 6149601548907104089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 767
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007f6f2340a63dd70800000000000000
+      internalID: 9066707041094399744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 767
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c371bef7022bee0800000000000000
+      internalID: -1246898413051102114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 767
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b9baec73c66f470800000000000000
+      internalID: 8428042739616815975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 767
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e7a0d2ce01c0b60800000000000000
+      internalID: 7713558868332805702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 767
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df195b153d307fff0800000000000000
+      internalID: -2529068646559235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 767
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69d13cdf678e87c0800000000000000
+      internalID: -4067164498963605141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 767
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f5d3bd99a59b4e0800000000000000
+      internalID: -1965440145515782340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 767
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b9622f9bf298630800000000000000
+      internalID: 3929724625535540082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 575
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1026965b200491770800000000000000
+      internalID: 8581960945308885505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 575
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c87e0cede7485e0800000000000000
+      internalID: -1908260846914007908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 575
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4b336461fc4b070800000000000000
+      internalID: 8121343722629870766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 383
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3835cfa57df03f3e0800000000000000
+      internalID: -2021254390140349565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 383
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001fb2fd07bed8a80800000000000000
+      internalID: -8462849254746230528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 383
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c11a0ae5de3142c0800000000000000
+      internalID: -4449205868389854781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 383
+        width: 133
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3595402dbeeec76a0800000000000000
+      internalID: -6450017869693167277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 383
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725be14dde93ff910800000000000000
+      internalID: 1873279663638230311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 383
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6987cab67da3a46f0800000000000000
+      internalID: -699682095203845994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 191
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1858d9c3df3493c90800000000000000
+      internalID: -7189640575197543039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 191
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0ca4cf5a35395d0800000000000000
+      internalID: -3057007749686968089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 191
+        width: 133
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992d442d9878937b0800000000000000
+      internalID: -5244011265088236903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 122
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8f2e8498c9c7fd0800000000000000
+      internalID: -2342825592692213589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 114
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7f252b6913c6410800000000000000
+      internalID: 1471605701549946788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 113
+        width: 73
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa0fd3e5cb409d00800000000000000
+      internalID: 977364432443083514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 100
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a388160d137f00780800000000000000
+      internalID: -8718697085267769286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 104
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae7ec42e3c62d4a0800000000000000
+      internalID: -6570069892218847573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 78
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5db497f7ac020580800000000000000
+      internalID: -8862507201158922914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 114
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32b05bdd92b20500800000000000000
+      internalID: 361047311202169404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_53
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 84
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c8576613378f9f0800000000000000
+      internalID: -434470708031681505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_54
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 84
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5605d373d44a6bf0800000000000000
+      internalID: -330375947686181281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_55
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 85
+        width: 57
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa0c0b6a835c1090800000000000000
+      internalID: -8062477378933486932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_56
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 81
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc7c9e09a084db50800000000000000
+      internalID: 6617055216097066225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_57
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 103
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a98e9ba7e0545ea0800000000000000
+      internalID: -5884989857119434332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_58
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 90
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec77be4e9ce539c30800000000000000
+      internalID: 4364936685074216910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_59
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 92
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3211eea9b9127a80800000000000000
+      internalID: -8470679663836851650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_60
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 74
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d3e38695a845190800000000000000
+      internalID: -7974596923560674029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_61
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 0
+        width: 133
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb7bc5e2f6c67e30800000000000000
+      internalID: 4501003624143092713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_62
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 82
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c88eb29bd51e740800000000000000
+      internalID: 5179524096339774583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_63
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 41
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ed98c00b68122d0800000000000000
+      internalID: -3305212560830505447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_64
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 0
+        width: 133
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c41a745d72c08fb0800000000000000
+      internalID: -4647500971902364479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_65
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 86
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942ba66c6a16e4af0800000000000000
+      internalID: -410283147122789815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_66
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 149
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0ddc3a2c73523f0800000000000000
+      internalID: -926272839243411258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_67
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 156
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a834b5fda0e9520800000000000000
+      internalID: 2710615980148755056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_68
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 71
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109f4223446760fd0800000000000000
+      internalID: -2376081718120220415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_69
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 71
+        width: 44
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23ec20c43e4e4380800000000000000
+      internalID: -8985158218088127702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_70
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 56
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc4e1204397ae310800000000000000
+      internalID: 1435092695551724740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_71
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 133
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c53ede5f3c760c0800000000000000
+      internalID: -4582478634800685937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_72
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 134
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de12ce0c8fba6cba0800000000000000
+      internalID: -6068974362958224915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_73
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 141
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25659bd4a76581b0800000000000000
+      internalID: -5654999799337491157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_74
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 0
+        width: 141
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645fabac0f3070020800000000000000
+      internalID: 2307817666778953030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_75
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 33
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de62d2223081b85a0800000000000000
+      internalID: -6518089633951308051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_76
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 0
+        width: 133
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264d07ec087ee19e0800000000000000
+      internalID: -1648625873165691806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Passenger car_Spritelist_77
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 133
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e715d796aeeacb0800000000000000
+      internalID: -4850682009836487157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

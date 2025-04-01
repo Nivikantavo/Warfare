@@ -12,7 +12,7 @@ public class PlayerUnit : Unit, IEnemyTarget
         _machine.Update();
     }
 
-    public override void Initialize(UnitConfig config)
+    public override void Initialize(UnitDataConfig config)
     {
         _unitConfig = config;
         Health = new Health(_unitConfig.HealthConfig.MaxHealth);
@@ -21,7 +21,7 @@ public class PlayerUnit : Unit, IEnemyTarget
         List<IState> states = new List<IState>()
         {
             new MovmentState(this),
-            new IdleState(this),
+            new DelayIdleState(this),
             new AttackState(this),
             new DieState(this, _collider)
         };

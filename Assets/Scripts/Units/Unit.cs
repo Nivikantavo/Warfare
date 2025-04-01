@@ -6,7 +6,7 @@ public abstract class Unit : MonoBehaviour
     public Health Health { get; protected set; }
     public ITarget Target { get; protected set; }
     public IStateSwitcher StateMachine => _machine;
-    public UnitConfig Config => _unitConfig;
+    public UnitDataConfig Config => _unitConfig;
     public UnitView UnitView => _unitView;
 
     protected ITargetFinder _targetFinder;
@@ -16,7 +16,7 @@ public abstract class Unit : MonoBehaviour
     protected Animator _animator;
 
     //прокинуть зенжектом
-    [SerializeField] protected UnitConfig _unitConfig;
+    [SerializeField] protected UnitDataConfig _unitConfig;
     [SerializeField] protected Transform CastRaysPoint;
     [SerializeField] protected Collider2D _collider;
 
@@ -26,7 +26,7 @@ public abstract class Unit : MonoBehaviour
         Initialize(_unitConfig);
     }
 
-    public virtual void Initialize(UnitConfig config)
+    public virtual void Initialize(UnitDataConfig config)
     {
         _unitConfig = config;
         Health = new Health(_unitConfig.HealthConfig.MaxHealth);
@@ -35,13 +35,24 @@ public abstract class Unit : MonoBehaviour
         List<IState> states = new List<IState>()
         {
             new MovmentState(this),
-            new IdleState(this),
+            new DelayIdleState(this),
             new AttackState(this),
             new DieState(this, _collider)
         };
         _targetFinder = new EllipseTargetFinder(CastRaysPoint, _unitConfig.FinderData);
         _machine = new StateMachine(states);
-        
+    }
+
+    public virtual bool CanAttack()
+    {
+        if (Target != null)
+        {
+            if (Vector3.Distance(transform.position, Target.Position) < _unitConfig.MovmentStateConfig.StopingDistance && transform.position.y - Target.Position.y < 0.1f)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
     

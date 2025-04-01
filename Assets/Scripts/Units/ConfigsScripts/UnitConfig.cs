@@ -1,11 +1,8 @@
-using System;
 using UnityEngine;
 
-[CreateAssetMenu(fileName ="Unit Config" , menuName = "Create Unit/Unit Config")]
+[CreateAssetMenu(fileName = "UnitConfig", menuName = "Scriptable Objects/UnitConfig")]
 public class UnitConfig : ScriptableObject
 {
-    [field: SerializeField] public AttackStateConfig AttackStateConfig;
-    [field: SerializeField] public MovmentStateConfig MovmentStateConfig;
-    [field: SerializeField] public FinderData FinderData;
-    [field: SerializeField] public HealthConfig HealthConfig;
+    [field: SerializeField] public UnitDataConfig UnitData {  get; private set; }
+    [field: SerializeField] public Unit Prefab { get; private set; }
 }

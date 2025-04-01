@@ -12,7 +12,7 @@ public class EnemyUnit : Unit, IPlayerTarget
         _machine.Update();
     }
 
-    public override void Initialize(UnitConfig config)
+    public override void Initialize(UnitDataConfig config)
     {
         _unitConfig = config;
         Health = new Health(_unitConfig.HealthConfig.MaxHealth);
@@ -20,8 +20,9 @@ public class EnemyUnit : Unit, IPlayerTarget
 
         List<IState> states = new List<IState>()
         {
+            new StartIdleState(this),
+            new DelayIdleState(this),
             new MovmentState(this),
-            new IdleState(this),
             new AttackState(this),
             new DieState(this, _collider)
         };

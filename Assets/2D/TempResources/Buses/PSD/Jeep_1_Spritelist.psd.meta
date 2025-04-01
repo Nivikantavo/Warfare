@@ -1,0 +1,2368 @@
+fileFormatVersion: 2
+guid: 845da6845d3b17449979f8b2b2e22261
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8652223294775668570
+    second: Jeep_1_Spritelist_0
+  - first:
+      213: 5596002952142135172
+    second: Jeep_1_Spritelist_1
+  - first:
+      213: -8515446689293085723
+    second: Jeep_1_Spritelist_2
+  - first:
+      213: 2257388095430079897
+    second: Jeep_1_Spritelist_3
+  - first:
+      213: -4987145871469558019
+    second: Jeep_1_Spritelist_4
+  - first:
+      213: 1505340730700775731
+    second: Jeep_1_Spritelist_5
+  - first:
+      213: 8506477728130072782
+    second: Jeep_1_Spritelist_6
+  - first:
+      213: 1552302836532074822
+    second: Jeep_1_Spritelist_7
+  - first:
+      213: 7839527542349048822
+    second: Jeep_1_Spritelist_8
+  - first:
+      213: -6152172666784313573
+    second: Jeep_1_Spritelist_9
+  - first:
+      213: -7296709595938050306
+    second: Jeep_1_Spritelist_10
+  - first:
+      213: -6226003787660200855
+    second: Jeep_1_Spritelist_11
+  - first:
+      213: 2359102451175952007
+    second: Jeep_1_Spritelist_12
+  - first:
+      213: 7104077153360359363
+    second: Jeep_1_Spritelist_13
+  - first:
+      213: 5132648889334423007
+    second: Jeep_1_Spritelist_14
+  - first:
+      213: -7054403776925547130
+    second: Jeep_1_Spritelist_15
+  - first:
+      213: -4535454351268402023
+    second: Jeep_1_Spritelist_16
+  - first:
+      213: -9062433691909956202
+    second: Jeep_1_Spritelist_17
+  - first:
+      213: -9078382171098563892
+    second: Jeep_1_Spritelist_18
+  - first:
+      213: 1691730521354288778
+    second: Jeep_1_Spritelist_19
+  - first:
+      213: 2361302648735864829
+    second: Jeep_1_Spritelist_20
+  - first:
+      213: -5894056810779729592
+    second: Jeep_1_Spritelist_21
+  - first:
+      213: -3471072016346468979
+    second: Jeep_1_Spritelist_22
+  - first:
+      213: -4135539661703912609
+    second: Jeep_1_Spritelist_23
+  - first:
+      213: -1328701841955626743
+    second: Jeep_1_Spritelist_24
+  - first:
+      213: 1529477098021758236
+    second: Jeep_1_Spritelist_25
+  - first:
+      213: 2741413990419535493
+    second: Jeep_1_Spritelist_26
+  - first:
+      213: -4082928342251183194
+    second: Jeep_1_Spritelist_27
+  - first:
+      213: 618735053319653236
+    second: Jeep_1_Spritelist_28
+  - first:
+      213: 7891014979827605367
+    second: Jeep_1_Spritelist_29
+  - first:
+      213: 6377784602823103965
+    second: Jeep_1_Spritelist_30
+  - first:
+      213: -171543730445153195
+    second: Jeep_1_Spritelist_31
+  - first:
+      213: -8853387497147766463
+    second: Jeep_1_Spritelist_32
+  - first:
+      213: 7641331480010597824
+    second: Jeep_1_Spritelist_33
+  - first:
+      213: -5804513041971574012
+    second: Jeep_1_Spritelist_34
+  - first:
+      213: 2688080025708112181
+    second: Jeep_1_Spritelist_35
+  - first:
+      213: 4006306069001018357
+    second: Jeep_1_Spritelist_36
+  - first:
+      213: -6700620754970733619
+    second: Jeep_1_Spritelist_37
+  - first:
+      213: 1927667584445101651
+    second: Jeep_1_Spritelist_38
+  - first:
+      213: 5374729820061138446
+    second: Jeep_1_Spritelist_39
+  - first:
+      213: 2737822783377491852
+    second: Jeep_1_Spritelist_40
+  - first:
+      213: -8123246077188490904
+    second: Jeep_1_Spritelist_41
+  - first:
+      213: 5255077159005644352
+    second: Jeep_1_Spritelist_42
+  - first:
+      213: 6836750175541171544
+    second: Jeep_1_Spritelist_43
+  - first:
+      213: -49889034886925051
+    second: Jeep_1_Spritelist_44
+  - first:
+      213: -4548707445226691190
+    second: Jeep_1_Spritelist_45
+  - first:
+      213: -4973040120561715769
+    second: Jeep_1_Spritelist_46
+  - first:
+      213: -5172412038715661443
+    second: Jeep_1_Spritelist_47
+  - first:
+      213: 4589815830787526240
+    second: Jeep_1_Spritelist_48
+  - first:
+      213: -2471639115439199752
+    second: Jeep_1_Spritelist_49
+  - first:
+      213: -8423653416307871985
+    second: Jeep_1_Spritelist_50
+  - first:
+      213: -3616983536571800712
+    second: Jeep_1_Spritelist_51
+  - first:
+      213: -3923293789564842549
+    second: Jeep_1_Spritelist_52
+  - first:
+      213: 3436708758388804186
+    second: Jeep_1_Spritelist_53
+  - first:
+      213: -6644717419909470897
+    second: Jeep_1_Spritelist_54
+  - first:
+      213: -8902931110985513723
+    second: Jeep_1_Spritelist_55
+  - first:
+      213: 8833961231560343947
+    second: Jeep_1_Spritelist_56
+  - first:
+      213: 3697589930646157607
+    second: Jeep_1_Spritelist_57
+  - first:
+      213: 3831984133707159352
+    second: Jeep_1_Spritelist_58
+  - first:
+      213: -956135363867710640
+    second: Jeep_1_Spritelist_59
+  - first:
+      213: 3851978778488472333
+    second: Jeep_1_Spritelist_60
+  - first:
+      213: -3323490177403277236
+    second: Jeep_1_Spritelist_61
+  - first:
+      213: -1156111508155671623
+    second: Jeep_1_Spritelist_62
+  - first:
+      213: -4751561971818301493
+    second: Jeep_1_Spritelist_63
+  - first:
+      213: 2584771821035544144
+    second: Jeep_1_Spritelist_64
+  - first:
+      213: 8413232932816000143
+    second: Jeep_1_Spritelist_65
+  - first:
+      213: -1171949008074614650
+    second: Jeep_1_Spritelist_66
+  - first:
+      213: -1223180418282061806
+    second: Jeep_1_Spritelist_67
+  - first:
+      213: -1791189247420774462
+    second: Jeep_1_Spritelist_68
+  - first:
+      213: -3859356223822897187
+    second: Jeep_1_Spritelist_69
+  - first:
+      213: 1880528376353192471
+    second: Jeep_1_Spritelist_70
+  - first:
+      213: 5025186699159404886
+    second: Jeep_1_Spritelist_71
+  - first:
+      213: -7267021089655919471
+    second: Jeep_1_Spritelist_72
+  - first:
+      213: 7968866424009559569
+    second: Jeep_1_Spritelist_73
+  - first:
+      213: -108636303254794742
+    second: Jeep_1_Spritelist_74
+  - first:
+      213: -4587607899613431674
+    second: Jeep_1_Spritelist_75
+  - first:
+      213: -5426364438818509410
+    second: Jeep_1_Spritelist_76
+  - first:
+      213: -8330017417981401447
+    second: Jeep_1_Spritelist_77
+  - first:
+      213: 7703481286268335964
+    second: Jeep_1_Spritelist_78
+  - first:
+      213: 8902322360069362155
+    second: Jeep_1_Spritelist_79
+  - first:
+      213: 7431404402283697787
+    second: Jeep_1_Spritelist_80
+  - first:
+      213: 447022577490201593
+    second: Jeep_1_Spritelist_81
+  - first:
+      213: -7045039033498124857
+    second: Jeep_1_Spritelist_82
+  - first:
+      213: 7963987080387519980
+    second: Jeep_1_Spritelist_83
+  - first:
+      213: -1553119478174343088
+    second: Jeep_1_Spritelist_84
+  - first:
+      213: 7217878802180438527
+    second: Jeep_1_Spritelist_85
+  - first:
+      213: -3756453670352736587
+    second: Jeep_1_Spritelist_86
+  - first:
+      213: 3248044238522764769
+    second: Jeep_1_Spritelist_87
+  - first:
+      213: 4414688307655461814
+    second: Jeep_1_Spritelist_88
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1727
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0598d31c02de780800000000000000
+      internalID: -8652223294775668570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1727
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f187c390ff8ad40800000000000000
+      internalID: 5596002952142135172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1727
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3d8e45a5e03d980800000000000000
+      internalID: -8515446689293085723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1727
+        width: 146
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9953e4c338ad35f10800000000000000
+      internalID: 2257388095430079897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1535
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df64000c0491acab0800000000000000
+      internalID: -4987145871469558019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1535
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331c85f3b6b04e410800000000000000
+      internalID: 1505340730700775731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1535
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec007faac641d0670800000000000000
+      internalID: 8506477728130072782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1535
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64953539433ea8510800000000000000
+      internalID: 1552302836532074822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1535
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb2b90a3c89bcc60800000000000000
+      internalID: 7839527542349048822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1535
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f047f1e871f9aa0800000000000000
+      internalID: -6152172666784313573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1535
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efeade83841ecba90800000000000000
+      internalID: -7296709595938050306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1535
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964f64aba8ac899a0800000000000000
+      internalID: -6226003787660200855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1343
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e88172e273db020800000000000000
+      internalID: 2359102451175952007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1343
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf230f2880c69260800000000000000
+      internalID: 7104077153360359363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1343
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddd49d88f4da3740800000000000000
+      internalID: 5132648889334423007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1343
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685cd260429b91e90800000000000000
+      internalID: -7054403776925547130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1343
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ca5a12c44de01c0800000000000000
+      internalID: -4535454351268402023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1343
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ddc217294cb3280800000000000000
+      internalID: -9062433691909956202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1343
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca3e64c38b130280800000000000000
+      internalID: -9078382171098563892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1343
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e320d22fb3a7710800000000000000
+      internalID: 1691730521354288778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1151
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df717119f3805c020800000000000000
+      internalID: 2361302648735864829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1151
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841a0830f8a143ea0800000000000000
+      internalID: -5894056810779729592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1151
+        width: 146
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8daed3446644dfc0800000000000000
+      internalID: -3471072016346468979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 959
+        width: 146
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f536995b69c9b96c0800000000000000
+      internalID: -4135539661703912609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 959
+        width: 149
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901e3d9e6b08f8de0800000000000000
+      internalID: -1328701841955626743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 959
+        width: 154
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15aeaf215bc93510800000000000000
+      internalID: 1529477098021758236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 994
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5861e39ef757b0620800000000000000
+      internalID: 2741413990419535493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 984
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a36eb41e468657c0800000000000000
+      internalID: -4082928342251183194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 767
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4774337b040369800800000000000000
+      internalID: 618735053319653236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 767
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f19e5d054828d60800000000000000
+      internalID: 7891014979827605367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 767
+        width: 146
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd51a392e41728850800000000000000
+      internalID: 6377784602823103965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 767
+        width: 146
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c0f53d2ed8e9df0800000000000000
+      internalID: -171543730445153195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 767
+        width: 146
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1496f958af2722580800000000000000
+      internalID: -8853387497147766463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 767
+        width: 146
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5aa0dde767b0a60800000000000000
+      internalID: 7641331480010597824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 767
+        width: 146
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b8927542a327fa0800000000000000
+      internalID: -5804513041971574012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 767
+        width: 146
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539a7249a8afd4520800000000000000
+      internalID: 2688080025708112181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 767
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb1c48b422499730800000000000000
+      internalID: 4006306069001018357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 767
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc31c5dbcec9203a0800000000000000
+      internalID: -6700620754970733619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 575
+        width: 146
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356b2ef647370ca10800000000000000
+      internalID: 1927667584445101651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 575
+        width: 146
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e71787b40e69a40800000000000000
+      internalID: 5374729820061138446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 575
+        width: 146
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87cf2dd053bef520800000000000000
+      internalID: 2737822783377491852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 383
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869381a4bbe644f80800000000000000
+      internalID: -8123246077188490904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 383
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046ecc165d8cde840800000000000000
+      internalID: 5255077159005644352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 383
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855983fdf0401ee50800000000000000
+      internalID: 6836750175541171544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 383
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505b065ef22ce4ff0800000000000000
+      internalID: -49889034886925051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 383
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85a61cbdaebfd0c0800000000000000
+      internalID: -4548707445226691190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 383
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c53720db563cfab0800000000000000
+      internalID: -4973040120561715769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 191
+        width: 146
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d732668c7a6e738b0800000000000000
+      internalID: -5172412038715661443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 191
+        width: 146
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e0e822e2d42bf30800000000000000
+      internalID: 4589815830787526240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 191
+        width: 146
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9294fd159f2bdd0800000000000000
+      internalID: -2471639115439199752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 138
+        width: 39
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fa6f929db291b80800000000000000
+      internalID: -8423653416307871985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 154
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873a33813a4edcdc0800000000000000
+      internalID: -3616983536571800712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 151
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdcd7bb519ad89c0800000000000000
+      internalID: -3923293789564842549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_53
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 113
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a0d344864a1bf20800000000000000
+      internalID: 3436708758388804186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_54
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 0
+        width: 171
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45227936b839c3a0800000000000000
+      internalID: -6644717419909470897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_55
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 48
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5054fe5035f627480800000000000000
+      internalID: -8902931110985513723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_56
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 116
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b810abe8fe8889a70800000000000000
+      internalID: 8833961231560343947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_57
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 102
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729b935837a705330800000000000000
+      internalID: 3697589930646157607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_58
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 97
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8375c825441fd2530800000000000000
+      internalID: 3831984133707159352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_59
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 126
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05be97fc3ff1bb2f0800000000000000
+      internalID: -956135363867710640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_60
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 0
+        width: 178
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0306265a4af47530800000000000000
+      internalID: 3851978778488472333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_61
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 160
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40b061da4790e1d0800000000000000
+      internalID: -3323490177403277236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_62
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 87
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbd3ab65baa4ffe0800000000000000
+      internalID: -1156111508155671623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_63
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 79
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7f38dbf8f0f0eb0800000000000000
+      internalID: -4751561971818301493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_64
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 90
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e534ac644fed320800000000000000
+      internalID: 2584771821035544144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_65
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 88
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f849d15f6cec1c470800000000000000
+      internalID: 8413232932816000143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_66
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 83
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68857de16966cbfe0800000000000000
+      internalID: -1171949008074614650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_67
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 90
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2108518e3e3660fe0800000000000000
+      internalID: -1223180418282061806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_68
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 97
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c74cfd9eda6427e0800000000000000
+      internalID: -1791189247420774462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_69
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 71
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfd75156ffc07ac0800000000000000
+      internalID: -3859356223822897187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_70
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 52
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71af296489af81a10800000000000000
+      internalID: 1880528376353192471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_71
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 76
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6510a65adac0db540800000000000000
+      internalID: 5025186699159404886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_72
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 63
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c69cf32da562b90800000000000000
+      internalID: -7267021089655919471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_73
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 76
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e80a1bac9179e60800000000000000
+      internalID: 7968866424009559569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_74
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 146
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e49c69bdb0e7ef0800000000000000
+      internalID: -108636303254794742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_75
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 153
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688f3c6ebea8550c0800000000000000
+      internalID: -4587607899613431674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_76
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 0
+        width: 146
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d29620b4ea1b4b0800000000000000
+      internalID: -5426364438818509410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_77
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 0
+        width: 146
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996e66cea45d56c80800000000000000
+      internalID: -8330017417981401447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_78
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 0
+        width: 146
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57b4e14a6348ea60800000000000000
+      internalID: 7703481286268335964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_79
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 59
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be193fb15076b8b70800000000000000
+      internalID: 8902322360069362155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_80
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 66
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76d46c3ee6a12760800000000000000
+      internalID: 7431404402283697787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_81
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 65
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb02e17aa4243600800000000000000
+      internalID: 447022577490201593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_82
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 0
+        width: 147
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd3593435efa3e90800000000000000
+      internalID: -7045039033498124857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_83
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 0
+        width: 147
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce56c4afd04c58e60800000000000000
+      internalID: 7963987080387519980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_84
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 0
+        width: 148
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050ada93016327ae0800000000000000
+      internalID: -1553119478174343088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_85
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 28
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff979c3578e0b2460800000000000000
+      internalID: 7217878802180438527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_86
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 49
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bea9631a456edbc0800000000000000
+      internalID: -3756453670352736587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_87
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 28
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed47eba60f531d20800000000000000
+      internalID: 3248044238522764769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeep_1_Spritelist_88
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 28
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbcfd330af144d30800000000000000
+      internalID: 4414688307655461814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
