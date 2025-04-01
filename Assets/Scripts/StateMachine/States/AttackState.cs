@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AttackState : IState
+public class AttackState : IState, ICanDieState
 {
     private readonly Unit _unit;
 
@@ -21,11 +21,15 @@ public class AttackState : IState
     public void Enter()
     {
         Debug.Log(GetType());
+        _unit.Health.ZeroHPValue += OnHealthValueIsZero;
+        _unit.UnitView.StartIdle();
     }
 
     public void Exit()
     {
         _lastAttackTime = 0;
+        _unit.Health.ZeroHPValue -= OnHealthValueIsZero;
+        _unit.UnitView.StopIdle();
     }
 
     public void HandleInput()
@@ -41,6 +45,7 @@ public class AttackState : IState
             if (_lastAttackTime > _timeBetweenAttack)
             {
                 Attack(_unit.Target);
+                _lastAttackTime = 0;
             }
         }
         else
@@ -53,5 +58,11 @@ public class AttackState : IState
     private void Attack(ITarget target)
     {
         target.Health.TakeDamage(_damage);
+        _unit.UnitView.StartMeleAttack();
+    }
+
+    public void OnHealthValueIsZero()
+    {
+        _unit.StateMachine.SwitchState<DieState>();
     }
 }

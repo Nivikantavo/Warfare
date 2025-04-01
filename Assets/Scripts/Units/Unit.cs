@@ -3,37 +3,45 @@ using UnityEngine;
 
 public abstract class Unit : MonoBehaviour
 {
-    public Health Health { get; private set; }
+    public Health Health { get; protected set; }
     public ITarget Target { get; protected set; }
     public IStateSwitcher StateMachine => _machine;
     public UnitConfig Config => _unitConfig;
+    public UnitView UnitView => _unitView;
 
     protected ITargetFinder _targetFinder;
 
     protected StateMachine _machine;
+    protected UnitView _unitView;
+    protected Animator _animator;
 
     //прокинуть зенжектом
-    [SerializeField] private UnitConfig _unitConfig;
+    [SerializeField] protected UnitConfig _unitConfig;
+    [SerializeField] protected Transform CastRaysPoint;
+    [SerializeField] protected Collider2D _collider;
 
     private void Awake()
     {
+        _animator = GetComponentInChildren<Animator>();
         Initialize(_unitConfig);
     }
 
-    public void Initialize(UnitConfig config)
+    public virtual void Initialize(UnitConfig config)
     {
         _unitConfig = config;
         Health = new Health(_unitConfig.HealthConfig.MaxHealth);
+        _unitView = new UnitView(_animator);
 
         List<IState> states = new List<IState>()
         {
             new MovmentState(this),
-            new IdleState(),
+            new IdleState(this),
             new AttackState(this),
-            new DieState()
+            new DieState(this, _collider)
         };
-        _targetFinder = new EllipseTargetFinder(transform, _unitConfig.FinderData);
+        _targetFinder = new EllipseTargetFinder(CastRaysPoint, _unitConfig.FinderData);
         _machine = new StateMachine(states);
+        
     }
 
     

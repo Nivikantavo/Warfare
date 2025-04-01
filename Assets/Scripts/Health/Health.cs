@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Health : IDamagable, IHealable
 {
+	public event Action ZeroHPValue;
+
 	public float MaxHealth { get; private set; }
 	public float CurrentHealth { get; private set; }
 	
@@ -28,7 +30,12 @@ public class Health : IDamagable, IHealable
 		{
 			throw new ArgumentOutOfRangeException("Damage amount cannot be negative");
 		}
-		
-		Mathf.Clamp(CurrentHealth -= damage, 0, MaxHealth);
+
+        CurrentHealth = Mathf.Clamp(CurrentHealth -= damage, 0, MaxHealth);
+
+		if (CurrentHealth <= 0)
+		{
+			ZeroHPValue?.Invoke();
+		}
 	}
 }

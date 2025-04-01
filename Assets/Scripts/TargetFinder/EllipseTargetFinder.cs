@@ -15,15 +15,17 @@ public class EllipseTargetFinder : ITargetFinder
     
     private LayerMask _layerMask;
     private Vector3 _forvard;
+    private FinderData _finderData;
 
     public EllipseTargetFinder(Transform finderCastPoint, FinderData finderData)
 	{
 		_finderCastPoint = finderCastPoint;
-        _rayCount = finderData.RayCount;
-        _maxLength = finderData.MaxDistance;
-        _minLength = finderData.MinDistance;
-        _layerMask = finderData.LayerMask;
-        _forvard = finderData.Direction;
+        _finderData = finderData;
+        _rayCount = _finderData.RayCount;
+        _maxLength = _finderData.MaxDistance;
+        _minLength = _finderData.MinDistance;
+        _layerMask = _finderData.LayerMask;
+        _forvard = _finderData.Direction;
     }
 
     public List<T> Find<T>(LayerMask layerMask) where T : ITarget
@@ -33,7 +35,7 @@ public class EllipseTargetFinder : ITargetFinder
         Vector3 startPosition = _finderCastPoint.position;
         float angleStep = 2 * Mathf.PI / _rayCount;
 
-        RaycastHit2D[] hits = new RaycastHit2D[10];
+        RaycastHit2D[] hits = new RaycastHit2D[_rayCount];
 
         for (int i = -_rayCount; i < _rayCount; i++)
         {
@@ -41,8 +43,8 @@ public class EllipseTargetFinder : ITargetFinder
             float lengthFactor = Mathf.Abs((i * i) / (_rayCount - 1));
             float rayLength = Mathf.Lerp(_maxLength, _minLength, lengthFactor);
 
-            float x = Mathf.Cos(angle) * EllipseA;
-            float y = Mathf.Sin(angle) * EllipseB;
+            float x = Mathf.Cos(angle) * EllipseA * _finderData.Direction.x;
+            float y = Mathf.Sin(angle) * EllipseB * _finderData.Direction.x;
             Vector3 direction = (_forvard + new Vector3(x, y, 0)).normalized;
 
             Debug.DrawLine(startPosition, startPosition + direction * rayLength, Color.green);

@@ -1,13 +1,12 @@
 using UnityEngine;
 
-public class MovmentState : IState
+public class MovmentState : IState, ICanDieState
 {
     private readonly Unit _unit;
     private readonly MovmentStateConfig _config;
 
-    //Взять из конфига
-    private float _speed = 1f;
-    private float _stopingDistance = 1f;
+    private float _speed;
+    private float _stopingDistance;
     private Vector2 _startDirection;
 
     public MovmentState(Unit unit)
@@ -23,16 +22,24 @@ public class MovmentState : IState
     public void Enter()
     {
         Debug.Log(GetType());
+        _unit.Health.ZeroHPValue += OnHealthValueIsZero;
+        _unit.UnitView.StartWalkingt();
     }
 
     public void Exit()
     {
-        
+        _unit.Health.ZeroHPValue -= OnHealthValueIsZero;
+        _unit.UnitView.StopWalking();
     }
 
     public void HandleInput()
     {
         
+    }
+
+    public void OnHealthValueIsZero()
+    {
+        _unit.StateMachine.SwitchState<DieState>();
     }
 
     public void Update()
@@ -41,7 +48,7 @@ public class MovmentState : IState
 
         if (_unit.Target != null)
         {
-            if (Vector3.Distance(_unit.transform.position, _unit.Target.Position) < _stopingDistance)
+            if (Vector3.Distance(_unit.transform.position, _unit.Target.Position) < _stopingDistance && _unit.transform.position.y - _unit.Target.Position.y < 0.1f)
             {
                 _unit.StateMachine.SwitchState<AttackState>();
             }
@@ -55,6 +62,7 @@ public class MovmentState : IState
         if (_unit.Target != null)
         {
             direction = _unit.Target.Position - _unit.transform.position;
+            direction = new Vector2(direction.x, direction.y);
         }
         else
         {
