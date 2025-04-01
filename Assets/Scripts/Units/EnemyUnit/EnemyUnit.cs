@@ -20,7 +20,7 @@ public class EnemyUnit : Unit, IPlayerTarget
 
         List<IState> states = new List<IState>()
         {
-            new StartIdleState(this),
+            //new StartIdleState(this),
             new DelayIdleState(this),
             new MovmentState(this),
             new AttackState(this),

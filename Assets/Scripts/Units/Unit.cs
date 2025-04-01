@@ -23,7 +23,6 @@ public abstract class Unit : MonoBehaviour
     private void Awake()
     {
         _animator = GetComponentInChildren<Animator>();
-        Initialize(_unitConfig);
     }
 
     public virtual void Initialize(UnitDataConfig config)

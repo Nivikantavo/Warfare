@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Zenject;
-
 using Random = UnityEngine.Random;
 
 public class EnemySpawner : MonoBehaviour
@@ -17,6 +16,7 @@ public class EnemySpawner : MonoBehaviour
     [Inject]
     private void Construct(UnitsFactory enemyFactory)
     {
+        Debug.Log("Construct");
         _enemyFactory = enemyFactory;
     }
 
@@ -44,7 +44,7 @@ public class EnemySpawner : MonoBehaviour
     {
         while (true)
         {
-            UnitsType selectedEnemyType = (UnitsType)Random.Range(0, Enum.GetValues(typeof(UnitsType)).Length - 1);
+            EnemyUnitType selectedEnemyType = (EnemyUnitType)Random.Range(0, Enum.GetValues(typeof(EnemyUnitType)).Length - 1);
             Vector3 spawnPosition = _spawnPoints[Random.Range(0, _spawnPoints.Count)].position;
 
             Unit enemy = _enemyFactory.Get(selectedEnemyType, spawnPosition);

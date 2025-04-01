@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9154d5c494bff39429438494bfcd8a28, type: 3}
-  m_Name: ZombieData 1
+  m_Name: FastZombieData
   m_EditorClassIdentifier: 
   <AttackStateConfig>k__BackingField:
-    <Damage>k__BackingField: 3
+    <Damage>k__BackingField: 100
     <TimeBetweenAttack>k__BackingField: 5
   <MovmentStateConfig>k__BackingField:
-    <Speed>k__BackingField: 1
+    <Speed>k__BackingField: 3
     <StopingDistance>k__BackingField: 1
     Direction: 0
   <FinderData>k__BackingField:
@@ -28,4 +28,4 @@ MonoBehaviour:
       m_Bits: 64
     FindDirection: 0
   <HealthConfig>k__BackingField:
-    <MaxHealth>k__BackingField: 20
+    <MaxHealth>k__BackingField: 390
