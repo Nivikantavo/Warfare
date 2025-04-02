@@ -14,9 +14,9 @@ public abstract class Unit : MonoBehaviour
     protected StateMachine _machine;
     protected UnitView _unitView;
     protected Animator _animator;
+    protected UnitDataConfig _unitConfig;
 
     //прокинуть зенжектом
-    [SerializeField] protected UnitDataConfig _unitConfig;
     [SerializeField] protected Transform CastRaysPoint;
     [SerializeField] protected Collider2D _collider;
 
@@ -46,7 +46,7 @@ public abstract class Unit : MonoBehaviour
     {
         if (Target != null)
         {
-            if (Vector3.Distance(transform.position, Target.Position) < _unitConfig.MovmentStateConfig.StopingDistance && transform.position.y - Target.Position.y < 0.1f)
+            if (Vector3.Distance(transform.position, Target.Position) < _unitConfig.MovmentStateConfig.StopingDistance && transform.position.y - Target.Position.y < 0.01f)
             {
                 return true;
             }

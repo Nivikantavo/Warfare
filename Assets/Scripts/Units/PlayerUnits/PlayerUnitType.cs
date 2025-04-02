@@ -1,4 +1,5 @@
 public enum PlayerUnitType
 {
-    Solder_1
+    Solder_1,
+    Sityman_1
 }

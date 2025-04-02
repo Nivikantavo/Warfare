@@ -156,12 +156,12 @@ TextureImporter:
       name: Run_0
       rect:
         serializedVersion: 2
-        x: 46
+        x: 47
         y: 0
-        width: 41
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 39
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,12 +178,12 @@ TextureImporter:
       name: Run_1
       rect:
         serializedVersion: 2
-        x: 173
+        x: 174
         y: 0
-        width: 42
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 40
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,12 +200,12 @@ TextureImporter:
       name: Run_2
       rect:
         serializedVersion: 2
-        x: 290
-        y: 4
-        width: 56
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 291
+        y: 5
+        width: 54
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -222,12 +222,12 @@ TextureImporter:
       name: Run_3
       rect:
         serializedVersion: 2
-        x: 420
+        x: 421
         y: 0
-        width: 51
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 49
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -244,12 +244,12 @@ TextureImporter:
       name: Run_4
       rect:
         serializedVersion: 2
-        x: 549
+        x: 550
         y: 0
-        width: 39
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 37
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -266,12 +266,12 @@ TextureImporter:
       name: Run_5
       rect:
         serializedVersion: 2
-        x: 690
+        x: 691
         y: 0
-        width: 39
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 37
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: Run_6
       rect:
         serializedVersion: 2
-        x: 815
+        x: 816
         y: 0
-        width: 41
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 39
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -310,12 +310,12 @@ TextureImporter:
       name: Run_7
       rect:
         serializedVersion: 2
-        x: 933
-        y: 4
-        width: 55
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 934
+        y: 5
+        width: 53
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -332,12 +332,12 @@ TextureImporter:
       name: Run_8
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 1
-        width: 53
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1063
+        y: 2
+        width: 51
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -354,12 +354,12 @@ TextureImporter:
       name: Run_9
       rect:
         serializedVersion: 2
-        x: 1191
+        x: 1192
         y: 0
-        width: 38
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 36
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -376,7 +376,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 776087a1609d42e4a945eab08c218c06
     internalID: 0
     vertices: []
     indices: 

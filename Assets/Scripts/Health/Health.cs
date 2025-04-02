@@ -4,6 +4,7 @@ using UnityEngine;
 public class Health : IDamagable, IHealable
 {
 	public event Action ZeroHPValue;
+	public event Action<float> HealthValueChange;
 
 	public float MaxHealth { get; private set; }
 	public float CurrentHealth { get; private set; }
@@ -20,9 +21,10 @@ public class Health : IDamagable, IHealable
 		{
 			throw new ArgumentOutOfRangeException("Heal amount cannot be negative");
 		}
-		
-		Mathf.Clamp(CurrentHealth += healAmount, 0, MaxHealth);
-	}
+
+        CurrentHealth = Mathf.Clamp(CurrentHealth += healAmount, 0, MaxHealth);
+        HealthValueChange?.Invoke(CurrentHealth);
+    }
 
 	public void TakeDamage(float damage)
 	{
@@ -32,8 +34,10 @@ public class Health : IDamagable, IHealable
 		}
 
         CurrentHealth = Mathf.Clamp(CurrentHealth -= damage, 0, MaxHealth);
+        HealthValueChange?.Invoke(CurrentHealth);
 
-		if (CurrentHealth <= 0)
+
+        if (CurrentHealth <= 0)
 		{
 			ZeroHPValue?.Invoke();
 		}
