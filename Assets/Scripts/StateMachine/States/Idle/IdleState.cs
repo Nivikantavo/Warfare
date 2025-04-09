@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public abstract class IdleState : IState, ICanDieState
 {
     protected Unit Unit;
@@ -11,8 +9,6 @@ public abstract class IdleState : IState, ICanDieState
 
     public virtual void Enter()
     {
-        Debug.Log(GetType());
-
         Unit.Health.ZeroHPValue += OnHealthValueIsZero;
         Unit.UnitView.StartIdle();
     }

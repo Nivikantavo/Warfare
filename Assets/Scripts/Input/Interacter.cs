@@ -23,8 +23,6 @@ public class Interacter : MonoBehaviour
                 {
                     interactable.InteractOnClick();
                 }
-
-                Debug.Log("Hit 2D object: " + hit.collider.gameObject.name);
             }
         }
     }

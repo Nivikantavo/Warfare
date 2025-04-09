@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -6,23 +7,73 @@ public class Map : MonoBehaviour
 {
     private const float NeighboringTolerance = 0.1f;
 
+    public event Action<int> LevelSelected;
+    public event Action<BonusCellData> BonusFinded;
+
     [SerializeField] private List<Cell> _cells;
     [SerializeField] private Cell _startCell;
 
     private Dictionary<Cell, Vector2> _cellsPositions;
+    private List<LevelCell> _levelCells = new List<LevelCell>();
+    private List<BonusHolderCell> _bonusHoldersCells = new List<BonusHolderCell>();
 
     private float _cellsStep;
-    
+
     private void Start()
+    {
+        Initialize();
+    }
+
+    private void OnEnable()
     {
         foreach (var cell in _cells)
         {
-            cell.gameObject.SetActive(true);
+            cell.CellOpened += OnCellOpened;
         }
+    }
+
+    private void OnDisable()
+    {
+        foreach (var cell in _cells)
+        {
+            cell.CellOpened -= OnCellOpened;
+        }
+    }
+
+    public void Initialize()
+    {
+        DistributeCells();
 
         _cellsPositions = GetCellsPositions(_cells);
         CalculateStep();
         UnlockStartCells();
+    }
+
+    private void DistributeCells()
+    {
+        foreach (var cell in _cells)
+        {
+            cell.gameObject.SetActive(true);
+
+            if (cell is LevelCell)
+            {
+                _levelCells.Add(cell as LevelCell);
+            }
+            else if (cell is BonusHolderCell)
+            {
+                _bonusHoldersCells.Add(cell as BonusHolderCell);
+            }
+        }
+
+        foreach (var cell in _levelCells)
+        {
+            cell.LevelCellInteract += OnLevelCellInteract;
+        }
+
+        foreach (var cell in _bonusHoldersCells)
+        {
+            cell.BonusCellInteract += OnBonusCellInteract;
+        }
     }
 
     private Dictionary<Cell, Vector2> GetCellsPositions(List<Cell> cells)
@@ -32,7 +83,6 @@ public class Map : MonoBehaviour
         foreach (var cell in cells)
         {
             cellsPositions.Add(cell, cell.transform.position);
-            cell.CellOpened += OnCellOpened;
         }
         
         return cellsPositions;
@@ -47,6 +97,16 @@ public class Map : MonoBehaviour
     {
         UnlockNeighboringCells(openedCell);
         openedCell.CellOpened -= OnCellOpened;
+    }
+
+    private void OnLevelCellInteract(int levelIndex)
+    {
+        LevelSelected?.Invoke(levelIndex);
+    }
+
+    private void OnBonusCellInteract(BonusCellData bonusData)
+    {
+        BonusFinded?.Invoke(bonusData);
     }
 
     private void UnlockNeighboringCells(Cell cell)

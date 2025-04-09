@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using Zenject;
 
 public class Boostraper : MonoBehaviour
 {
@@ -16,9 +17,17 @@ public class Boostraper : MonoBehaviour
     [SerializeField] private PlayerBase _playerBase;
     [SerializeField] private EnemyBase _enemyBase;
 
+    private LevelData _levelLoadingData;
+
+    [Inject]
+    private void Construct(LevelData levelLoadingData)
+    {
+        _levelLoadingData = levelLoadingData;
+    }
 
     private void Start()
     {
+        Debug.Log(_levelLoadingData.LevelIndex);
         _playerBase.Initialize(_baseData);
         _enemyBase.Initialize(_baseData);
 

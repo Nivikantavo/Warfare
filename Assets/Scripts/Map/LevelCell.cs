@@ -1,15 +1,20 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelCell : Cell
 {
+    public event Action<int> LevelCellInteract;
+
+    [SerializeField] private int _levelIndex;
+
     protected override void Interact()
     {
-        StartLevel();
+        SelectLevel();
     }
 
-    private void StartLevel()
+    private void SelectLevel()
     {
-        SceneManager.LoadScene(1);
+        LevelCellInteract?.Invoke(_levelIndex);
     }
 }

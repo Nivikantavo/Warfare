@@ -1,7 +1,12 @@
+using System;
 using UnityEngine;
 
 public class BonusHolderCell : Cell
 {
+    public event Action<BonusCellData> BonusCellInteract;
+
+    [SerializeField] private BonusCellData _bonusData;
+
     protected override void Interact()
     {
         if (IsClosed)
@@ -21,6 +26,6 @@ public class BonusHolderCell : Cell
 
     private void GiveBonus()
     {
-
+        BonusCellInteract?.Invoke(_bonusData);
     }
 }
