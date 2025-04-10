@@ -3,20 +3,19 @@ using UnityEngine;
 public class DieState : IState
 {
     private Unit _unit;
-    private Collider2D _collider;
 
-    public DieState(Unit unit, Collider2D collider)
+    public DieState(Unit unit)
     {
         _unit = unit;
-        _collider = collider;
     }
 
     public void Enter()
     {
         Debug.Log(GetType());
+        _unit.Die();
         _unit.UnitView.StartDieing();
         _unit.enabled = false;
-        _collider.enabled = false;
+        
     }
 
     public void Exit()

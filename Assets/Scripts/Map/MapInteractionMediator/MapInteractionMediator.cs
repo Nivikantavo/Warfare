@@ -7,29 +7,27 @@ public class MapInteractionMediator : MonoBehaviour
     [SerializeField] private Map _map;
     [SerializeField] private MainMenuHUD _mainMenuHUD;
 
-    private SceneLoadMediator _sceneLoader;
     private LevelDataLoader _levelDataLoader;
 
     [Inject]
     private void Construct(SceneLoadMediator sceneLoaded)
     {
-        _sceneLoader = sceneLoaded;
         _levelDataLoader = new LevelDataLoader();
     }
 
     private void OnEnable()
     {
-        _map.LevelSelected += OnLevelSelected;
+        _map.LevelClicked += OnLevelClicked;
     }
 
     private void OnDisable()
     {
-        _map.LevelSelected -= OnLevelSelected;
+        _map.LevelClicked -= OnLevelClicked;
     }
 
-    private void OnLevelSelected(int level)
+    private void OnLevelClicked(int level)
     {
-        LevelData levelData = _levelDataLoader.GetLevelData(level);
-        _sceneLoader.GoToGameplayLevel(levelData);
+        LevelConfig levelData = _levelDataLoader.GetLevelData(level);
+        _mainMenuHUD.ShowSelectedLevel(levelData);
     }
 }

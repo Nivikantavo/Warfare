@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9154d5c494bff39429438494bfcd8a28, type: 3}
   m_Name: Sitiman_1
   m_EditorClassIdentifier: 
+  <Prefab>k__BackingField: {fileID: 0}
   <AttackStateConfig>k__BackingField:
     <Damage>k__BackingField: 50
     <TimeBetweenAttack>k__BackingField: 2
@@ -23,9 +24,12 @@ MonoBehaviour:
     <RayCount>k__BackingField: 10
     <MinDistance>k__BackingField: 1
     <MaxDistance>k__BackingField: 7
-    <LayerMask>k__BackingField:
+    <TargetMask>k__BackingField:
       serializedVersion: 2
-      m_Bits: 128
+      m_Bits: 0
     FindDirection: 1
   <HealthConfig>k__BackingField:
     <MaxHealth>k__BackingField: 150
+  <States>k__BackingField:
+  - {fileID: 0}
+  - {fileID: 0}

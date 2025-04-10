@@ -7,7 +7,7 @@ public class Map : MonoBehaviour
 {
     private const float NeighboringTolerance = 0.1f;
 
-    public event Action<int> LevelSelected;
+    public event Action<int> LevelClicked;
     public event Action<BonusCellData> BonusFinded;
 
     [SerializeField] private List<Cell> _cells;
@@ -101,7 +101,7 @@ public class Map : MonoBehaviour
 
     private void OnLevelCellInteract(int levelIndex)
     {
-        LevelSelected?.Invoke(levelIndex);
+        LevelClicked?.Invoke(levelIndex);
     }
 
     private void OnBonusCellInteract(BonusCellData bonusData)

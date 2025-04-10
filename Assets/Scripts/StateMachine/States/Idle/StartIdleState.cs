@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public class StartIdleState : IdleState
 {
     public StartIdleState(Unit unit) : base(unit) {}

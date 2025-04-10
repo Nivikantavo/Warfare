@@ -18,7 +18,7 @@ public class ForvardTargetFinder : ITargetFinder
         _finderData = finderData;
 
         _rayLength = _finderData.MaxDistance;
-        _layerMask = _finderData.LayerMask;
+        _layerMask = _finderData.TargetMask;
         _forvard = _finderData.Direction;
     }
 

@@ -17,17 +17,16 @@ public class Boostraper : MonoBehaviour
     [SerializeField] private PlayerBase _playerBase;
     [SerializeField] private EnemyBase _enemyBase;
 
-    private LevelData _levelLoadingData;
+    private LevelConfig _levelLoadingData;
 
     [Inject]
-    private void Construct(LevelData levelLoadingData)
+    private void Construct(LevelConfig levelLoadingData)
     {
         _levelLoadingData = levelLoadingData;
     }
 
     private void Start()
     {
-        Debug.Log(_levelLoadingData.LevelIndex);
         _playerBase.Initialize(_baseData);
         _enemyBase.Initialize(_baseData);
 

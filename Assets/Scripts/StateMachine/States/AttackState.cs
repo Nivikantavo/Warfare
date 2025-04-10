@@ -4,7 +4,7 @@ public class AttackState : IState, ICanDieState
 {
     private readonly Unit _unit;
 
-    private readonly AttackStateConfig _config;
+    private readonly AttackStateData _config;
 
     private float _damage;
     private float _timeBetweenAttack;

@@ -9,7 +9,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 561968a342406514f8bbf1de7b76aba7, type: 3}
+  m_Script: {fileID: 11500000, guid: e11067a0be04b9b4c876a90f7a0374d4, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
   <LevelIndex>k__BackingField: 1
+  <Waves>k__BackingField:
+  - <SpawnedUnit>k__BackingField: 0
+    <UnitsCount>k__BackingField: 5
+    <DelayBetweenSpawn>k__BackingField: 1
+    <DelayAfterWave>k__BackingField: 7
+  - <SpawnedUnit>k__BackingField: 1
+    <UnitsCount>k__BackingField: 2
+    <DelayBetweenSpawn>k__BackingField: 0.5
+    <DelayAfterWave>k__BackingField: 7
+  <PreSpawnedWave>k__BackingField:
+  - <SpawnedUnit>k__BackingField: 0
+    <UnitsCount>k__BackingField: 5
+    <DelayBetweenSpawn>k__BackingField: 1
+    <DelayAfterWave>k__BackingField: 7
+  - <SpawnedUnit>k__BackingField: 1
+    <UnitsCount>k__BackingField: 2
+    <DelayBetweenSpawn>k__BackingField: 0.5
+    <DelayAfterWave>k__BackingField: 7
+  <RewardData>k__BackingField:
+  - <ResourceType>k__BackingField: 0
+    <Amount>k__BackingField: 1
+  - <ResourceType>k__BackingField: 1
+    <Amount>k__BackingField: 2
+  - <ResourceType>k__BackingField: 2
+    <Amount>k__BackingField: 3

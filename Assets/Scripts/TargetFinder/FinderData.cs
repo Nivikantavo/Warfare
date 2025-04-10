@@ -7,7 +7,7 @@ public class FinderData
     [field: SerializeField] public int RayCount { get; private set; }
     [field: SerializeField] public float MinDistance { get; private set; }
     [field: SerializeField] public float MaxDistance { get; private set; }
-    [field: SerializeField] public LayerMask LayerMask { get; private set; }
+    [field: SerializeField] public LayerMask TargetMask { get; private set; }
 
     [field: SerializeField] private StartDirection FindDirection;
 

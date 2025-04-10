@@ -24,7 +24,7 @@ public class EllipseTargetFinder : ITargetFinder
         _rayCount = _finderData.RayCount;
         _maxLength = _finderData.MaxDistance;
         _minLength = _finderData.MinDistance;
-        _layerMask = _finderData.LayerMask;
+        _layerMask = _finderData.TargetMask;
         _forvard = _finderData.Direction;
     }
 

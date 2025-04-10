@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public abstract class Unit : MonoBehaviour
@@ -15,8 +16,8 @@ public abstract class Unit : MonoBehaviour
     protected UnitView _unitView;
     protected Animator _animator;
     protected UnitDataConfig _unitConfig;
+    protected bool _isInitialized;
 
-    //прокинуть зенжектом
     [SerializeField] protected Transform CastRaysPoint;
     [SerializeField] protected Collider2D _collider;
 
@@ -25,19 +26,12 @@ public abstract class Unit : MonoBehaviour
         _animator = GetComponentInChildren<Animator>();
     }
 
-    public virtual void Initialize(UnitDataConfig config)
+    public virtual void Initialize(UnitDataConfig config, List<IState> states)
     {
         _unitConfig = config;
         Health = new Health(_unitConfig.HealthConfig.MaxHealth);
         _unitView = new UnitView(_animator);
 
-        List<IState> states = new List<IState>()
-        {
-            new MovmentState(this),
-            new DelayIdleState(this),
-            new AttackState(this),
-            new DieState(this, _collider)
-        };
         _targetFinder = new EllipseTargetFinder(CastRaysPoint, _unitConfig.FinderData);
         _machine = new StateMachine(states);
     }
@@ -54,5 +48,8 @@ public abstract class Unit : MonoBehaviour
         return false;
     }
 
-    
+    public virtual void Die()
+    {
+        _collider.enabled = false;
+    }
 }

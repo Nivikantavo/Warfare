@@ -11,7 +11,6 @@ public class PlayerUnitsSpawner : MonoBehaviour
     [Inject]
     private void Construct(UnitsFactory enemyFactory)
     {
-        Debug.Log("Construct");
         _unitsFactory = enemyFactory;
     }
 

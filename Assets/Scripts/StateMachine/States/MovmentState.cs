@@ -3,7 +3,7 @@ using UnityEngine;
 public class MovmentState : IState, ICanDieState
 {
     private readonly Unit _unit;
-    private readonly MovmentStateConfig _config;
+    private readonly MovmentStateData _config;
 
     private float _speed;
     private float _stopingDistance;
@@ -21,7 +21,6 @@ public class MovmentState : IState, ICanDieState
 
     public void Enter()
     {
-        Debug.Log(GetType());
         _unit.Health.ZeroHPValue += OnHealthValueIsZero;
         _unit.UnitView.StartWalkingt();
     }

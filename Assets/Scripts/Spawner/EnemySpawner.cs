@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,14 +8,20 @@ public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private float _spawnCooldown;
     [SerializeField] private List<Transform> _spawnPoints;
+    [SerializeField] private List<Transform> _preSpawnPoints;
+
     private UnitsFactory _enemyFactory;
+
+    private List<Wave> _waves;
+    private List<Wave> _preSpawnUnits;
 
     private Coroutine _spawn;
 
     [Inject]
-    private void Construct(UnitsFactory enemyFactory)
+    private void Construct(UnitsFactory enemyFactory, LevelConfig levelConfig)
     {
-        Debug.Log("Construct");
+        _waves = levelConfig.Waves;
+        _preSpawnUnits = levelConfig.PreSpawnedWave;
         _enemyFactory = enemyFactory;
     }
 
@@ -28,7 +33,7 @@ public class EnemySpawner : MonoBehaviour
     public void StartWork()
     {
         StopWork();
-
+        PreSpawnStartUnits();
         _spawn = StartCoroutine(Spawn());
     }
 
@@ -42,14 +47,36 @@ public class EnemySpawner : MonoBehaviour
 
     private IEnumerator Spawn()
     {
-        while (true)
+        for (int i = 0; i < _waves.Count; i++)
         {
-            EnemyUnitType selectedEnemyType = (EnemyUnitType)Random.Range(0, Enum.GetValues(typeof(EnemyUnitType)).Length - 1);
-            Vector3 spawnPosition = _spawnPoints[Random.Range(0, _spawnPoints.Count)].position;
+            for (int j = 0; j < _waves[i].UnitsCount; j++)
+            {
+                Vector3 spawnPosition = _spawnPoints[Random.Range(0, _spawnPoints.Count)].position;
 
-            Unit enemy = _enemyFactory.Get(selectedEnemyType, spawnPosition);
+                _enemyFactory.Get(_waves[i].SpawnedUnit, spawnPosition);
 
-            yield return new WaitForSeconds(_spawnCooldown);
+                yield return new WaitForSeconds(_waves[i].DelayBetweenSpawn);
+            }
+
+            yield return new WaitForSeconds(_waves[i].DelayAfterWave);
+        }
+    }
+
+    private void PreSpawnStartUnits()
+    {
+        if(_preSpawnUnits == null)
+            return;
+
+        RuntimeContext runtimeContext = new RuntimeContext(true);
+
+        for (int i = 0; i < _preSpawnUnits.Count; i++)
+        {
+            for (int j = 0; j < _preSpawnUnits[i].UnitsCount; j++)
+            {
+                Vector3 spawnPosition = _preSpawnPoints[Random.Range(0, _preSpawnPoints.Count)].position;
+
+                _enemyFactory.Get(_preSpawnUnits[i].SpawnedUnit, spawnPosition, runtimeContext);
+            }
         }
     }
 }

@@ -1,40 +1,42 @@
 using System.IO;
 using System;
 using UnityEngine;
+using Zenject;
 
 public class RewardsFactory
 {
+    private const string RewardConfigsPath = "RewardConfigs";
     private const string GoldConfig = "GoldConfig";
     private const string ExpConfig = "ExpConfig";
     private const string UnitExpCinfig = "UnitExpCinfig";
-    private const string FuelConfig = "FuelConfig";
 
-    private RewardViewConfig _gold, _exp, _unitExp, _fuel;
+    private RewardViewConfig _gold, _exp, _unitExp;
+    private IInstantiator Container;
 
-    public RewardsFactory()
+    public RewardsFactory(IInstantiator container)
     {
+        Container = container;
         Load();
     }
 
-    public LevelRewardViewData Get(ResourceType resourceType)
+    public LevelRewardView Get(RewardType resourceType, int rewardAmount)
     {
         RewardViewConfig config = GetConfigBy(resourceType);
-        LevelRewardViewData data = new LevelRewardViewData(config);
-        return data;
+        LevelRewardView instance = Container.InstantiatePrefabForComponent<LevelRewardView>(config.Prefab);
+        instance.Initialize(config, rewardAmount);
+        return instance;
     }
 
-    private RewardViewConfig GetConfigBy(ResourceType resourceType)
+    private RewardViewConfig GetConfigBy(RewardType resourceType)
     {
         switch (resourceType)
         {
-            case ResourceType.Gold:
+            case RewardType.Gold:
                 return _gold;
-            case ResourceType.Experience:
+            case RewardType.Experience:
                 return _exp;
-            case ResourceType.UnitExperience:
+            case RewardType.UnitExperience:
                 return _unitExp;
-            case ResourceType.Fuel:
-                return _fuel;
             default:
                 throw new ArgumentException(nameof(resourceType));
         }
@@ -42,9 +44,8 @@ public class RewardsFactory
 
     private void Load()
     {
-        _gold = Resources.Load<RewardViewConfig>(Path.Combine(GoldConfig));
-        _exp = Resources.Load<RewardViewConfig>(Path.Combine(ExpConfig));
-        _unitExp = Resources.Load<RewardViewConfig>(Path.Combine(UnitExpCinfig));
-        _fuel = Resources.Load<RewardViewConfig>(Path.Combine(FuelConfig));
+        _gold = Resources.Load<RewardViewConfig>(Path.Combine(RewardConfigsPath, GoldConfig));
+        _exp = Resources.Load<RewardViewConfig>(Path.Combine(RewardConfigsPath, ExpConfig));
+        _unitExp = Resources.Load<RewardViewConfig>(Path.Combine(RewardConfigsPath, UnitExpCinfig));
     }
 }

@@ -9,7 +9,7 @@ public class SceneLoadMediator
         _levelSceneLoader = levelSceneLoader;
     }
 
-    public void GoToGameplayLevel(LevelData levelLoadingData)
+    public void GoToGameplayLevel(LevelConfig levelLoadingData)
         => _levelSceneLoader.LoadScene(levelLoadingData);
 
     public void GoToMenu()

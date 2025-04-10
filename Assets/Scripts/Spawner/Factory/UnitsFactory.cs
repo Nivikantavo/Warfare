@@ -1,44 +1,52 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using Zenject;
 
 public class UnitsFactory
 {
+    private const string EnemyUnitsPath = "UnitsConfigs/EnemyConfigs";
+    private const string PlayerUnitsPath = "UnitsConfigs/PlayerUnitsConfigs";
+
     private const string SmallConfig = "Zombie_1";
     private const string MediumConfig = "Zombie_1 1";
     private const string Solder_1 = "Solder_1";
     private const string Sitiman_1 = "Sitiman_1";
 
-    private UnitConfig _small, _medium, _solder_1, _sityman_1;
+    private UnitDataConfig _small, _medium, _solder_1, _sityman_1;
 
-    private IInstantiator Container;
-
+    private IInstantiator _container;
+    private StateAssembler _stateAssembler = new StateAssembler();
     public UnitsFactory(IInstantiator container)
     {
-        Container = container;
+        _container = container;
         Load();
     }
 
-    public Unit Get(EnemyUnitType unitType, Vector3 position)
+    public Unit Get(EnemyUnitType unitType, Vector3 position, RuntimeContext runtimeContext = null)
     {
-        UnitConfig config = GetConfigBy(unitType);
-        Unit instance = Container.InstantiatePrefabForComponent<Unit>(config.Prefab, position, Quaternion.identity, null);
+        UnitDataConfig config = GetConfigBy(unitType);
+        
+        Unit instance = _container.InstantiatePrefabForComponent<Unit>(config.Prefab, position, Quaternion.identity, null);
+        List<IState> states = _stateAssembler.AssembleStates(instance, config, runtimeContext);
 
-        instance.Initialize(config.UnitData);
+        instance.Initialize(config, states);
         return instance;
     }
 
-    public Unit Get(PlayerUnitType unitType, Vector3 position)
+    public Unit Get(PlayerUnitType unitType, Vector3 position, RuntimeContext runtimeContext = null)
     {
-        UnitConfig config = GetConfigBy(unitType);
-        Unit instance = Container.InstantiatePrefabForComponent<Unit>(config.Prefab, position, Quaternion.identity, null);
+        UnitDataConfig config = GetConfigBy(unitType);
 
-        instance.Initialize(config.UnitData);
+        Unit instance = _container.InstantiatePrefabForComponent<Unit>(config.Prefab, position, Quaternion.identity, null);
+        List<IState> states = _stateAssembler.AssembleStates(instance, config, runtimeContext);
+
+        instance.Initialize(config, states);
         return instance;
     }
 
-    private UnitConfig GetConfigBy(EnemyUnitType unitType)
+    private UnitDataConfig GetConfigBy(EnemyUnitType unitType)
     {
         switch (unitType)
         {
@@ -52,7 +60,7 @@ public class UnitsFactory
         }
     }
 
-    private UnitConfig GetConfigBy(PlayerUnitType unitType)
+    private UnitDataConfig GetConfigBy(PlayerUnitType unitType)
     {
         switch (unitType)
         {
@@ -68,9 +76,9 @@ public class UnitsFactory
 
     private void Load()
     {
-        _small = Resources.Load<UnitConfig>(Path.Combine(SmallConfig));
-        _medium = Resources.Load<UnitConfig>(Path.Combine(MediumConfig));
-        _solder_1 = Resources.Load<UnitConfig>(Path.Combine(Solder_1));
-        _sityman_1 = Resources.Load<UnitConfig>(Path.Combine(Sitiman_1));
+        _small = Resources.Load<UnitDataConfig>(Path.Combine(EnemyUnitsPath, SmallConfig));
+        _medium = Resources.Load<UnitDataConfig>(Path.Combine(EnemyUnitsPath, MediumConfig));
+        _solder_1 = Resources.Load<UnitDataConfig>(Path.Combine(PlayerUnitsPath, Solder_1));
+        _sityman_1 = Resources.Load<UnitDataConfig>(Path.Combine(PlayerUnitsPath, Sitiman_1));
     }
 }

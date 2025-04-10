@@ -20,7 +20,7 @@ public class SceneLoader : ISimpleSceneLoader, ILevelSceneLoader
         Load(null, (int)sceneID);
     }
 
-    public void LoadScene(LevelData lveleLoadingData)
+    public void LoadScene(LevelConfig lveleLoadingData)
     {
         Load(container =>
         {
