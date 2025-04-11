@@ -150,12 +150,12 @@ TextureImporter:
       name: Run_0
       rect:
         serializedVersion: 2
-        x: 49
+        x: 50
         y: 0
-        width: 43
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 41
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -172,12 +172,12 @@ TextureImporter:
       name: Run_1
       rect:
         serializedVersion: 2
-        x: 179
+        x: 180
         y: 0
-        width: 47
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 45
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: Run_2
       rect:
         serializedVersion: 2
-        x: 299
+        x: 300
         y: 0
-        width: 43
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 41
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -216,12 +216,12 @@ TextureImporter:
       name: Run_3
       rect:
         serializedVersion: 2
-        x: 427
+        x: 428
         y: 0
-        width: 39
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 37
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -238,12 +238,12 @@ TextureImporter:
       name: Run_4
       rect:
         serializedVersion: 2
-        x: 558
+        x: 559
         y: 0
-        width: 56
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 54
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -260,12 +260,12 @@ TextureImporter:
       name: Run_5
       rect:
         serializedVersion: 2
-        x: 686
+        x: 687
         y: 0
-        width: 45
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 43
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -282,12 +282,12 @@ TextureImporter:
       name: Run_6
       rect:
         serializedVersion: 2
-        x: 810
+        x: 811
         y: 0
-        width: 38
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 36
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -304,12 +304,12 @@ TextureImporter:
       name: Run_7
       rect:
         serializedVersion: 2
-        x: 941
+        x: 942
         y: 0
-        width: 34
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -326,7 +326,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5b81fe323fd70064587be48221aa164a
     internalID: 0
     vertices: []
     indices: 

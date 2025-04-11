@@ -8,24 +8,24 @@ public class EnemyUnit : Unit, IPlayerTarget
 
     private void FixedUpdate()
     {
-        if(_isInitialized == false)
+        if(IsInitialized == false)
             return;
 
-        Target = _targetFinder.GetNearestTarget<IEnemyTarget>();
-        _machine.Update();
+        Target = TargetFinder.GetNearestTarget<IEnemyTarget>();
+        Machine.Update();
     }
 
     public override void Initialize(UnitDataConfig config, List<IState> states)
     {
-        _unitConfig = config;
-        Health = new Health(_unitConfig.HealthConfig.MaxHealth);
-        _unitView = new UnitView(_animator);
+        UnitConfig = config;
+        Health = new Health(UnitConfig.HealthConfig.MaxHealth);
+        UnitView = new UnitView(Animator);
 
 
-        _targetFinder = new ForvardTargetFinder(CastRaysPoint, _unitConfig.FinderData);
-        Debug.Log(_targetFinder);
-        _machine = new StateMachine(states);
+        TargetFinder = new ForvardTargetFinder(CastRaysPoint, UnitConfig.FinderData);
 
-        _isInitialized = true;
+        Machine = new StateMachine(states);
+
+        IsInitialized = true;
     }
 }

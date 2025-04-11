@@ -12,9 +12,12 @@ public class UnitsFactory
     private const string SmallConfig = "Zombie_1";
     private const string MediumConfig = "Zombie_1 1";
     private const string Solder_1 = "Solder_1";
-    private const string Sitiman_1 = "Sitiman_1";
+    private const string Cityman_1 = "Cityman_1";
+    private const string Cityman_2 = "Cityman_2";
+    private const string Cityman_3 = "Cityman_3";
+    private const string Rider_3 = "Rider_3";
 
-    private UnitDataConfig _small, _medium, _solder_1, _sityman_1;
+    private UnitDataConfig _small, _medium, _solder_1, _cityman_1, _cityman_2, _cityman_3, _rider_3;
 
     private IInstantiator _container;
     private StateAssembler _stateAssembler = new StateAssembler();
@@ -66,8 +69,14 @@ public class UnitsFactory
         {
             case PlayerUnitType.Solder_1:
                 return _solder_1;
-            case PlayerUnitType.Sityman_1:
-                return _sityman_1;
+            case PlayerUnitType.Cityman_1:
+                return _cityman_1;
+            case PlayerUnitType.Cityman_2:
+                return _cityman_2;
+            case PlayerUnitType.Cityman_3:
+                return _cityman_3;
+            case PlayerUnitType.Rider_3:
+                return _rider_3;
 
             default:
                 throw new ArgumentException(nameof(unitType));
@@ -78,7 +87,11 @@ public class UnitsFactory
     {
         _small = Resources.Load<UnitDataConfig>(Path.Combine(EnemyUnitsPath, SmallConfig));
         _medium = Resources.Load<UnitDataConfig>(Path.Combine(EnemyUnitsPath, MediumConfig));
+
         _solder_1 = Resources.Load<UnitDataConfig>(Path.Combine(PlayerUnitsPath, Solder_1));
-        _sityman_1 = Resources.Load<UnitDataConfig>(Path.Combine(PlayerUnitsPath, Sitiman_1));
+        _cityman_1 = Resources.Load<UnitDataConfig>(Path.Combine(PlayerUnitsPath, Cityman_1));
+        _cityman_2 = Resources.Load<UnitDataConfig>(Path.Combine(PlayerUnitsPath, Cityman_2));
+        _cityman_3 = Resources.Load<UnitDataConfig>(Path.Combine(PlayerUnitsPath, Cityman_3));
+        _rider_3 = Resources.Load<UnitDataConfig>(Path.Combine(PlayerUnitsPath, Rider_3));
     }
 }

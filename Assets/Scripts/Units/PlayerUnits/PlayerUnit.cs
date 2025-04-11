@@ -8,22 +8,22 @@ public class PlayerUnit : Unit, IEnemyTarget
 
     private void FixedUpdate()
     {
-        if (_isInitialized == false)
+        if (IsInitialized == false)
             return;
 
-        Target = _targetFinder.GetNearestTarget<IPlayerTarget>();
-        _machine.Update();
+        Target = TargetFinder.GetNearestTarget<IPlayerTarget>();
+        Machine.Update();
     }
 
     public override void Initialize(UnitDataConfig config, List<IState> states)
     {
-        _unitConfig = config;
-        Health = new Health(_unitConfig.HealthConfig.MaxHealth);
-        _unitView = new UnitView(_animator);
+        UnitConfig = config;
+        Health = new Health(UnitConfig.HealthConfig.MaxHealth);
+        UnitView = new UnitView(Animator);
 
-        _targetFinder = new EllipseTargetFinder(CastRaysPoint, _unitConfig.FinderData);
-        _machine = new StateMachine(states);
+        TargetFinder = new EllipseTargetFinder(CastRaysPoint, UnitConfig.FinderData);
+        Machine = new StateMachine(states);
 
-        _isInitialized = true;
+        IsInitialized = true;
     }
 }

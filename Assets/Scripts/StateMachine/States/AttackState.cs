@@ -4,7 +4,7 @@ public class AttackState : IState, ICanDieState
 {
     private readonly Unit _unit;
 
-    private readonly AttackStateData _config;
+    private AttackStateData _config;
 
     private float _damage;
     private float _timeBetweenAttack;
@@ -13,15 +13,11 @@ public class AttackState : IState, ICanDieState
     public AttackState(Unit unit)
     {
         _unit = unit;
-        _config = unit.Config.AttackStateConfig;
-        _damage = _config.Damage;
-        _timeBetweenAttack = _config.TimeBetweenAttack;
-        _lastAttackTime = _timeBetweenAttack / 2;
     }
 
     public void Enter()
     {
-        Debug.Log(GetType());
+        GetData();
         _unit.Health.ZeroHPValue += OnHealthValueIsZero;
         _unit.UnitView.StartIdle();
     }
@@ -54,6 +50,14 @@ public class AttackState : IState, ICanDieState
             _unit.StateMachine.SwitchState<DelayIdleState>();
         }
 
+    }
+
+    private void GetData()
+    {
+        _config = _unit.Config.AttackStateConfig;
+        _damage = _config.Damage;
+        _timeBetweenAttack = _config.TimeBetweenAttack;
+        _lastAttackTime = _timeBetweenAttack / 2;
     }
 
     private void Attack(ITarget target)

@@ -31,7 +31,7 @@ MonoBehaviour:
   <HealthConfig>k__BackingField:
     <MaxHealth>k__BackingField: 150
   <States>k__BackingField:
-  - {fileID: 11400000, guid: 96246baca9aadcd44bc44241710d92f8, type: 2}
   - {fileID: 11400000, guid: e454577b83d01814699f19e47fe8b1a8, type: 2}
+  - {fileID: 11400000, guid: 96246baca9aadcd44bc44241710d92f8, type: 2}
   - {fileID: 11400000, guid: 134c2aa4d9628774e9bfda0656ff75ce, type: 2}
   - {fileID: 11400000, guid: 9d5b15822701aa042a9adec21e22b769, type: 2}

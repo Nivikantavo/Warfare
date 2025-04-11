@@ -3,7 +3,7 @@ using UnityEngine;
 public class MovmentState : IState, ICanDieState
 {
     private readonly Unit _unit;
-    private readonly MovmentStateData _config;
+    private MovmentStateData _config;
 
     private float _speed;
     private float _stopingDistance;
@@ -12,15 +12,11 @@ public class MovmentState : IState, ICanDieState
     public MovmentState(Unit unit)
     {
         _unit = unit;
-        _config = _unit.Config.MovmentStateConfig;
-
-        _speed = _config.Speed;
-        _stopingDistance = _config.StopingDistance;
-        _startDirection = _config.StartDirection;
     }
 
     public void Enter()
     {
+        GetData();
         _unit.Health.ZeroHPValue += OnHealthValueIsZero;
         _unit.UnitView.StartWalkingt();
     }
@@ -52,6 +48,15 @@ public class MovmentState : IState, ICanDieState
                 _unit.StateMachine.SwitchState<AttackState>();
             }
         }
+    }
+
+    private void GetData()
+    {
+        _config = _unit.Config.MovmentStateConfig;
+
+        _speed = _config.Speed;
+        _stopingDistance = _config.StopingDistance;
+        _startDirection = _config.StartDirection;
     }
 
     private void Move()

@@ -63,7 +63,7 @@ public class Boostraper : MonoBehaviour
 
     public void SpawnSityman()
     {
-        _spawner.Spawn(PlayerUnitType.Sityman_1);
+        _spawner.Spawn(PlayerUnitType.Cityman_1);
     }
 
     private void OnEnemyBaseHealthChange(float newValue)

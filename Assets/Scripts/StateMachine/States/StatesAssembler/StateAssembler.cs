@@ -17,7 +17,7 @@ public class StateAssembler
         }
 
         states.AddRange(config.States.Select(s => s.CreateState(unit)));
-        Debug.Log("STATES COUNT: " + states.Count);
+
         return states;
     }
 }
