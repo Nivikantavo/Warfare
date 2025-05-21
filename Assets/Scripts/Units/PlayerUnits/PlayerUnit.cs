@@ -15,13 +15,13 @@ public class PlayerUnit : Unit, IEnemyTarget
         Machine.Update();
     }
 
-    public override void Initialize(UnitDataConfig config, List<IState> states)
+    public override void Initialize(UnitStats stats, List<IState> states)
     {
-        UnitConfig = config;
-        Health = new Health(UnitConfig.HealthConfig.MaxHealth);
+        UnitStats = stats;
+        Health = new Health(UnitStats.MaxHealth);
         UnitView = new UnitView(Animator);
 
-        TargetFinder = new EllipseTargetFinder(CastRaysPoint, UnitConfig.FinderData);
+        TargetFinder = new EllipseTargetFinder(CastRaysPoint, UnitStats.FinderData);
         Machine = new StateMachine(states);
 
         IsInitialized = true;

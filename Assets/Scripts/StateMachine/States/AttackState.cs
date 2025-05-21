@@ -4,10 +4,8 @@ public class AttackState : IState, ICanDieState
 {
     private readonly Unit _unit;
 
-    private AttackStateData _config;
+    private UnitStats _unitStates;
 
-    private float _damage;
-    private float _timeBetweenAttack;
     private float _lastAttackTime;
 
     public AttackState(Unit unit)
@@ -24,7 +22,7 @@ public class AttackState : IState, ICanDieState
 
     public void Exit()
     {
-        _lastAttackTime = _timeBetweenAttack / 2;
+        _lastAttackTime = _unitStates.AttackCooldown / _unitStates.AttackSpeed;
         _unit.Health.ZeroHPValue -= OnHealthValueIsZero;
         _unit.UnitView.StopIdle();
     }
@@ -39,7 +37,7 @@ public class AttackState : IState, ICanDieState
         if (_unit.CanAttack())
         {
             _lastAttackTime += Time.deltaTime;
-            if (_lastAttackTime > _timeBetweenAttack)
+            if (_lastAttackTime > _unitStates.AttackCooldown / _unitStates.AttackSpeed)
             {
                 Attack(_unit.Target);
                 _lastAttackTime = 0;
@@ -54,15 +52,13 @@ public class AttackState : IState, ICanDieState
 
     private void GetData()
     {
-        _config = _unit.Config.AttackStateConfig;
-        _damage = _config.Damage;
-        _timeBetweenAttack = _config.TimeBetweenAttack;
-        _lastAttackTime = _timeBetweenAttack / 2;
+        _unitStates = _unit.Stats;
+        _lastAttackTime = _unitStates.AttackCooldown / _unitStates.AttackSpeed;
     }
 
     private void Attack(ITarget target)
     {
-        target.Health.TakeDamage(_damage);
+        target.Health.TakeDamage(_unitStates.Damage);
         _unit.UnitView.StartMeleAttack();
     }
 

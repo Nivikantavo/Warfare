@@ -27,29 +27,33 @@ public class UnitsFactory
         Load();
     }
 
-    public Unit Get(EnemyUnitType unitType, Vector3 position, RuntimeContext runtimeContext = null)
+    public Unit GetEnemyUnit(EnemyUnitType unitType, Vector3 position, ShopUpgradeData shopUpgradeData, RuntimeContext runtimeContext = null)
     {
-        UnitDataConfig config = GetConfigBy(unitType);
+        UnitDataConfig config = GetEnemyConfigBy(unitType);
         
         Unit instance = _container.InstantiatePrefabForComponent<Unit>(config.Prefab, position, Quaternion.identity, null);
         List<IState> states = _stateAssembler.AssembleStates(instance, config, runtimeContext);
 
-        instance.Initialize(config, states);
+        UnitStats unitStats = StatModifierApplier.GetModifiedStats(config, shopUpgradeData.Level);
+
+        instance.Initialize(unitStats, states);
         return instance;
     }
 
-    public Unit Get(PlayerUnitType unitType, Vector3 position, RuntimeContext runtimeContext = null)
+    public Unit GetPlayerUnit(PlayerUnitType unitType, Vector3 position, ShopUpgradeData shopUpgradeData, RuntimeContext runtimeContext = null)
     {
-        UnitDataConfig config = GetConfigBy(unitType);
+        UnitDataConfig config = GetPlayerUnitConfigBy(unitType);
 
         Unit instance = _container.InstantiatePrefabForComponent<Unit>(config.Prefab, position, Quaternion.identity, null);
         List<IState> states = _stateAssembler.AssembleStates(instance, config, runtimeContext);
 
-        instance.Initialize(config, states);
+        UnitStats unitStats = StatModifierApplier.GetModifiedStats(config, shopUpgradeData.Level);
+
+        instance.Initialize(unitStats, states);
         return instance;
     }
 
-    private UnitDataConfig GetConfigBy(EnemyUnitType unitType)
+    private UnitDataConfig GetEnemyConfigBy(EnemyUnitType unitType)
     {
         switch (unitType)
         {
@@ -63,7 +67,7 @@ public class UnitsFactory
         }
     }
 
-    private UnitDataConfig GetConfigBy(PlayerUnitType unitType)
+    private UnitDataConfig GetPlayerUnitConfigBy(PlayerUnitType unitType)
     {
         switch (unitType)
         {

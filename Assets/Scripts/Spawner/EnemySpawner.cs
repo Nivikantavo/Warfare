@@ -11,6 +11,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private List<Transform> _preSpawnPoints;
 
     private UnitsFactory _enemyFactory;
+    private ShopUpgradeData _shopUpgradeData;
 
     private List<Wave> _waves;
     private List<Wave> _preSpawnUnits;
@@ -18,10 +19,11 @@ public class EnemySpawner : MonoBehaviour
     private Coroutine _spawn;
 
     [Inject]
-    private void Construct(UnitsFactory enemyFactory, LevelConfig levelConfig)
+    private void Construct(UnitsFactory enemyFactory, LevelConfig levelConfig, ShopUpgradeData shopUpgradeData)
     {
         _waves = levelConfig.Waves;
         _preSpawnUnits = levelConfig.PreSpawnedWave;
+        _shopUpgradeData = shopUpgradeData;
         _enemyFactory = enemyFactory;
     }
 
@@ -53,7 +55,7 @@ public class EnemySpawner : MonoBehaviour
             {
                 Vector3 spawnPosition = _spawnPoints[Random.Range(0, _spawnPoints.Count)].position;
 
-                _enemyFactory.Get(_waves[i].SpawnedUnit, spawnPosition);
+                _enemyFactory.GetEnemyUnit(_waves[i].SpawnedUnit, spawnPosition, _shopUpgradeData);
 
                 yield return new WaitForSeconds(_waves[i].DelayBetweenSpawn);
             }
@@ -75,7 +77,7 @@ public class EnemySpawner : MonoBehaviour
             {
                 Vector3 spawnPosition = _preSpawnPoints[Random.Range(0, _preSpawnPoints.Count)].position;
 
-                _enemyFactory.Get(_preSpawnUnits[i].SpawnedUnit, spawnPosition, runtimeContext);
+                _enemyFactory.GetEnemyUnit(_preSpawnUnits[i].SpawnedUnit, spawnPosition, _shopUpgradeData, runtimeContext);
             }
         }
     }

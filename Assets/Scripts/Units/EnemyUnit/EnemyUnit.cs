@@ -15,14 +15,14 @@ public class EnemyUnit : Unit, IPlayerTarget
         Machine.Update();
     }
 
-    public override void Initialize(UnitDataConfig config, List<IState> states)
+    public override void Initialize(UnitStats stats, List<IState> states)
     {
-        UnitConfig = config;
-        Health = new Health(UnitConfig.HealthConfig.MaxHealth);
+        UnitStats = stats;
+        Health = new Health(UnitStats.MaxHealth);
         UnitView = new UnitView(Animator);
 
 
-        TargetFinder = new ForvardTargetFinder(CastRaysPoint, UnitConfig.FinderData);
+        TargetFinder = new ForvardTargetFinder(CastRaysPoint, UnitStats.FinderData);
 
         Machine = new StateMachine(states);
 

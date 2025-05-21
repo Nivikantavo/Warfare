@@ -7,14 +7,13 @@ public abstract class Unit : MonoBehaviour
     public ITarget Target { get; protected set; }
     public UnitView UnitView { get; protected set; }
     public IStateSwitcher StateMachine => Machine;
-    public UnitDataConfig Config => UnitConfig;
-    
+    public UnitStats Stats => UnitStats;
 
     protected ITargetFinder TargetFinder;
 
     protected StateMachine Machine;
     protected Animator Animator;
-    protected UnitDataConfig UnitConfig;
+    protected UnitStats UnitStats;
     protected bool IsInitialized;
 
     [SerializeField] protected Transform CastRaysPoint;
@@ -25,13 +24,13 @@ public abstract class Unit : MonoBehaviour
         Animator = GetComponentInChildren<Animator>();
     }
 
-    public virtual void Initialize(UnitDataConfig config, List<IState> states)
+    public virtual void Initialize(UnitStats stats, List<IState> states)
     {
-        UnitConfig = config;
-        Health = new Health(UnitConfig.HealthConfig.MaxHealth);
+        UnitStats = stats;
+        Health = new Health(UnitStats.MaxHealth);
         UnitView = new UnitView(Animator);
 
-        TargetFinder = new EllipseTargetFinder(CastRaysPoint, UnitConfig.FinderData);
+        TargetFinder = new EllipseTargetFinder(CastRaysPoint, UnitStats.FinderData);
         Machine = new StateMachine(states);
     }
 
@@ -39,7 +38,7 @@ public abstract class Unit : MonoBehaviour
     {
         if (Target != null)
         {
-            if (Vector3.Distance(transform.position, Target.Position) < UnitConfig.MovmentStateConfig.StopingDistance && transform.position.y - Target.Position.y < 0.01f)
+            if (Vector3.Distance(transform.position, Target.Position) < UnitStats.StopingDistance && transform.position.y - Target.Position.y < 0.01f)
             {
                 return true;
             }

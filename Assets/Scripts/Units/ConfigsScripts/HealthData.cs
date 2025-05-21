@@ -4,5 +4,5 @@ using UnityEngine;
 [Serializable]
 public class HealthData
 {
-    [field: SerializeField] public int MaxHealth { get; private set; }
+    [field: SerializeField] public float MaxHealth { get; private set; }
 }

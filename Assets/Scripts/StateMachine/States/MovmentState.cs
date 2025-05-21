@@ -3,10 +3,8 @@ using UnityEngine;
 public class MovmentState : IState, ICanDieState
 {
     private readonly Unit _unit;
-    private MovmentStateData _config;
+    private UnitStats _unitStats;
 
-    private float _speed;
-    private float _stopingDistance;
     private Vector2 _startDirection;
 
     public MovmentState(Unit unit)
@@ -52,11 +50,9 @@ public class MovmentState : IState, ICanDieState
 
     private void GetData()
     {
-        _config = _unit.Config.MovmentStateConfig;
+        _unitStats = _unit.Stats;
 
-        _speed = _config.Speed;
-        _stopingDistance = _config.StopingDistance;
-        _startDirection = _config.StartDirection;
+        _startDirection = _unitStats.StartDirection;
     }
 
     private void Move()
@@ -73,6 +69,6 @@ public class MovmentState : IState, ICanDieState
             direction = _startDirection;
         }
 
-        _unit.transform.Translate(direction.normalized * _speed * Time.fixedDeltaTime);
+        _unit.transform.Translate(direction.normalized * _unitStats.Speed * Time.fixedDeltaTime);
     }
 }

@@ -11,10 +11,9 @@ public class DieState : IState
 
     public void Enter()
     {
-        _unit.Die();
         _unit.UnitView.StartDieing();
+        _unit.Die();
         _unit.enabled = false;
-        
     }
 
     public void Exit()
