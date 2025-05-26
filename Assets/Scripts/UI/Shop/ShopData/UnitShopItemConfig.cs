@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "ShopItemConfig", menuName = "Shop/Item")]
-public class ShopItemConfig : ScriptableObject
+[CreateAssetMenu(fileName = "UnitShopItemConfig", menuName = "Shop/UnitShopItemConfig")]
+public class UnitShopItemConfig : ScriptableObject
 {
     [field: SerializeField] public string ID { get; private set; }
     [field: SerializeField] public UnitDataConfig CharacterConfig { get; private set; }
