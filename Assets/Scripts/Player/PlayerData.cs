@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 public class PlayerData
 {
     public Wallet Wallet {  get; private set; }
@@ -8,12 +10,12 @@ public class PlayerData
     public CurrentPlayerDeck CurrentPlayerDeck { get; private set; }
 
 
-    public PlayerData(int goldAmount, int UnitsExpAmount, int maxFuelAmount, int currentFuelAmount)
+    public PlayerData(int goldAmount, int UnitsExpAmount, int maxFuelAmount, int currentFuelAmount, List<string> currentPickedUnits)
     {
         Wallet = new Wallet(goldAmount);
         UnitsExpWallet = new UnitsExpWallet(UnitsExpAmount);
         FuelKeeper = new FuelKeeper(maxFuelAmount, currentFuelAmount);
-
-        //—читать PurchasedItemsData, CurrentPlayerDeck и UnlockedUnitsData 
+        CurrentPlayerDeck = new CurrentPlayerDeck(currentPickedUnits);
+        //—читать PurchasedItemsData и UnlockedUnitsData 
     }
 }

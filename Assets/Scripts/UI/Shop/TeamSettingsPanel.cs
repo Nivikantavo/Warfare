@@ -31,7 +31,7 @@ public class TeamSettingsPanel : MonoBehaviour
     {
         for(int i = 0; i < currentPlayerDeck.Count; i++)
         {
-            _shopItems.First(item => )
+            //_shopItems.First(item => )
         }
     }
 
@@ -43,5 +43,13 @@ public class TeamSettingsPanel : MonoBehaviour
     private void SpawnLockedItems(List<string> unlockedItems)
     {
 
+    }
+
+    private void CreateShopItemsList()
+    {
+        for (int i = 0; i < _shopItems.Count; i++)
+        {
+            
+        }
     }
 }

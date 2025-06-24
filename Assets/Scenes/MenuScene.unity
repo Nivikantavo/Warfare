@@ -305,12 +305,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dec804538ef05841b0ca5b703f59423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shopItems: []
-  _upgradeCostConfig: {fileID: 0}
-  _cardTemplate: {fileID: 0}
-  _deckContainer: {fileID: 0}
-  _availableCollectionContainer: {fileID: 0}
-  _lockedCollectionContainer: {fileID: 0}
+  _shopItems:
+  - {fileID: 11400000, guid: 617171a9760f76548ac4f3a46a7c1edc, type: 2}
+  - {fileID: 11400000, guid: 3596055b2e56ff942af88b68f4f05cd5, type: 2}
+  _upgradeCostConfig: {fileID: 11400000, guid: 7099bdda5737f854f85fdfe0d042677c, type: 2}
+  _cardTemplate: {fileID: 627887613660460926, guid: 11657b3f18eaa984b91f83f934d40345, type: 3}
+  _deckContainer: {fileID: 2055059591}
+  _availableCollectionContainer: {fileID: 342005700}
+  _lockedCollectionContainer: {fileID: 1216533857}
 --- !u!1 &112257788
 GameObject:
   m_ObjectHideFlags: 0

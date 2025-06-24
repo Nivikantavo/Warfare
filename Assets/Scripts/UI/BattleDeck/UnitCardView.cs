@@ -8,9 +8,11 @@ public class UnitCardView : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _unitLevel;
     [SerializeField] private TextMeshProUGUI _unitCost;
 
-    public void Initialize()
+    public void Initialize(Sprite preview, int level, int cost)
     {
-
+        _unitPreview.sprite = preview;
+        _unitLevel.text = level.ToString();
+        _unitCost.text = cost.ToString();
     }
 
 }
