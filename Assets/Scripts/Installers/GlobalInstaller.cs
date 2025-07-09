@@ -4,12 +4,18 @@ public class GlobalInstaller : MonoInstaller
 {
     public override void InstallBindings()
     {
-        BindLoader();
+        BindScensLoader();
+        BindSaveLoadService();
     }
 
-    private void BindLoader()
+    private void BindScensLoader()
     {
         Container.BindInterfacesTo<SceneLoader>().AsSingle();
         Container.Bind<SceneLoadMediator>().AsSingle();
+    }
+
+    private void BindSaveLoadService()
+    {
+        Container.BindInterfacesTo<SaveLoadSystem>().AsSingle();
     }
 }

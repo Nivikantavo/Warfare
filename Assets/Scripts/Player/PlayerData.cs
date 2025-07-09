@@ -16,6 +16,8 @@ public class PlayerData
         UnitsExpWallet = new UnitsExpWallet(UnitsExpAmount);
         FuelKeeper = new FuelKeeper(maxFuelAmount, currentFuelAmount);
         CurrentPlayerDeck = new CurrentPlayerDeck(currentPickedUnits);
-        //—читать PurchasedItemsData и UnlockedUnitsData 
+        //—читать PurchasedItemsData
+        //—читать UnlockedUnitsData
+        //считать текущий прогресс игрока
     }
 }

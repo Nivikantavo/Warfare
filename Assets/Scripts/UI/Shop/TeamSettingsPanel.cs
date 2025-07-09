@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Zenject;
 
 public class TeamSettingsPanel : MonoBehaviour
 {
@@ -14,6 +15,15 @@ public class TeamSettingsPanel : MonoBehaviour
     [SerializeField] private Transform _lockedCollectionContainer;
 
     private List<UnitCardView> _cards;
+
+    private SaveLoadSystem _saveLoadSystem;
+
+    [Inject]
+    private void Construct(SaveLoadSystem saveLoadSystem)
+    {
+        _saveLoadSystem = saveLoadSystem;
+        Initialize(_saveLoadSystem.PlayerData.CurrentPlayerDeck, _saveLoadSystem.PlayerData.UnlockedUnitsData, _saveLoadSystem.PlayerData.PurchasedItemsData);
+    }
 
     public void Initialize(List<string> currentPlayerDeck, List<string> unlockedItems, List<string> boughtItems, Dictionary<string, int> boughtUpgrades)
     {
