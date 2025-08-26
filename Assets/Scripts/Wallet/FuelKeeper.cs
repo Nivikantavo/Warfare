@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 
+[Serializable]
 public class FuelKeeper : BaseResourceKeeper
 {
     private int _maxFuelAmount;

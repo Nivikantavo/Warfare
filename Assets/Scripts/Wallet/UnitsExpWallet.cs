@@ -1,5 +1,6 @@
 using System;
 
+[Serializable]
 public class UnitsExpWallet : BaseResourceKeeper
 {
     public int UnitsExpAmount { get; private set; }

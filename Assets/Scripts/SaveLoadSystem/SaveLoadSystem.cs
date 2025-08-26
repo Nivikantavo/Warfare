@@ -2,21 +2,25 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using Newtonsoft.Json;
 
 public class SaveLoadSystem : ISaveLoadDataService
 {
     public PlayerData PlayerData => _playerData;
 
-    private const string DefaultDataPath = "DefaultData";
     private const string PlayerDataKey = "PlayerData";
-
     private PlayerData _playerData;
+
+    public SaveLoadSystem()
+    {
+        LoadOrCreatePlayerData();
+    }
 
     private void LoadOrCreatePlayerData()
     {
         if(PlayerPrefs.HasKey(PlayerDataKey))
         {
-            LoadPlayerData();
+            _playerData = LoadPlayerData();
         }
         else
         {
@@ -25,30 +29,22 @@ public class SaveLoadSystem : ISaveLoadDataService
         }
     }
 
-    private void LoadPlayerData()
+    private PlayerData LoadPlayerData()
     {
-        _playerData = JsonUtility.FromJson<PlayerData>(PlayerPrefs.GetString(PlayerDataKey));
+        return JsonConvert.DeserializeObject<PlayerData>(PlayerPrefs.GetString(PlayerDataKey));
     }
 
     private void SavePlayerData()
     {
-        string json = JsonUtility.ToJson(_playerData);
+        string json = JsonConvert.SerializeObject(_playerData, Formatting.Indented);
+        Debug.Log(json);
+        File.WriteAllText(Path.Combine(Application.persistentDataPath, PlayerDataKey), json);
         PlayerPrefs.SetString(PlayerDataKey, json);
         PlayerPrefs.Save();
     }
 
     private PlayerData LoadDefaultData()
     {
-        DefaultData defaultData = Resources.Load<DefaultData>(DefaultDataPath);
-
-        PlayerData playerData = new PlayerData(
-            defaultData.StartGold,
-            defaultData.StartUnitsExpAmount,
-            defaultData.MaxFuelAmount,
-            defaultData.StartFuelAmount,
-            new List<string> { defaultData.StartPickedUnit }
-        );
-
-        return playerData;
+        return new PlayerData();
     }
 }

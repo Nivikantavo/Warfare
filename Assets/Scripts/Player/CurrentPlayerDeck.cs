@@ -1,7 +1,8 @@
 using System.Collections.Generic;
-using UnityEngine;
 using System;
+using UnityEngine;
 
+[Serializable]
 public class CurrentPlayerDeck
 {
     public IReadOnlyList<string> CurrentPickedUnits => _currentPickedUnits;

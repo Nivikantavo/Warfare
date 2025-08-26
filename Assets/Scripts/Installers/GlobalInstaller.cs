@@ -16,6 +16,6 @@ public class GlobalInstaller : MonoInstaller
 
     private void BindSaveLoadService()
     {
-        Container.BindInterfacesTo<SaveLoadSystem>().AsSingle();
+        Container.BindInterfacesAndSelfTo<SaveLoadSystem>().AsSingle();
     }
 }

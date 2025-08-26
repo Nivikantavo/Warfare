@@ -15,7 +15,8 @@ MonoBehaviour:
   <Prefab>k__BackingField: {fileID: 7788954940572006323, guid: dae92d1f8c4701542b4f58523930922a, type: 3}
   <AttackStateConfig>k__BackingField:
     <Damage>k__BackingField: 15
-    <TimeBetweenAttack>k__BackingField: 2.5
+    <AttackCooldown>k__BackingField: 0
+    <AttackSpeed>k__BackingField: 0
   <MovmentStateConfig>k__BackingField:
     <Speed>k__BackingField: 4
     <StopingDistance>k__BackingField: 1
@@ -30,6 +31,9 @@ MonoBehaviour:
     FindDirection: 1
   <HealthConfig>k__BackingField:
     <MaxHealth>k__BackingField: 150
+  <SpawningData>k__BackingField:
+    <SpawningCooldown>k__BackingField: 10
+    <SpawningCost>k__BackingField: 20
   <States>k__BackingField:
   - {fileID: 11400000, guid: e454577b83d01814699f19e47fe8b1a8, type: 2}
   - {fileID: 11400000, guid: 9d5b15822701aa042a9adec21e22b769, type: 2}

@@ -10,6 +10,7 @@ public class UnitDataConfig : ScriptableObject
     [field: SerializeField] public MovmentStateData MovmentStateConfig { get; private set; }
     [field: SerializeField] public FinderData FinderData { get; private set; }
     [field: SerializeField] public HealthData HealthConfig { get; private set; }
+    [field: SerializeField] public SpawningData SpawningData { get; private set; }
     [field: SerializeField] public List<StateConfigSO> States { get; private set; }
 
     public void SetStates(List<StateConfigSO> newStates)
